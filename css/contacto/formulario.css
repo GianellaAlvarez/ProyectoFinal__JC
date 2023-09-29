@@ -1,0 +1,65 @@
+.div {
+    display: flex;
+    flex-direction: column;
+    height: 490px;
+    width: 650px;
+    margin: auto;
+    color: white;
+    border: 1px solid;
+    border-radius: 17px;
+}
+
+.formulario {
+    padding: 60px 60px 0px 60px;
+    align-content: center;
+}
+
+h2 {
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+.div_NA{
+    display: flex;
+    flex-direction: row;
+    gap: 45px;
+}
+
+.NombreApellido, .Correo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    line-height: 50px;
+    margin-bottom: 20px;
+}
+
+.input {
+    justify-content: center;
+    background: transparent;
+    border-style: initial;
+    border-bottom: solid 2px white;
+    width: 227px;
+}
+
+.input-correo {
+    background: transparent;
+    border-style: initial;
+    border-bottom: solid 2px white;
+    width: 503px;
+    
+}
+
+
+textarea {
+    background: transparent;
+    border: none;
+    border-bottom: solid 2px white;
+    width: 503px;
+    padding: 5px;
+    resize: none;
+    overflow: hidden;
+    height: 70px;
+    line-height: 20px;
+    margin-bottom: 38px;
+
+}

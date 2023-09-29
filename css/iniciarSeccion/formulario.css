@@ -1,0 +1,50 @@
+.div {
+    display: flex;
+    flex-direction: column;
+    height: 450px;
+    width: 500px;
+    margin: auto;
+    margin-top: 20px;
+    border: 1px solid white;
+    border-radius: 17px;
+    color: white;
+
+}
+
+.formulario {
+    padding: 72px;
+}
+
+h2 {
+    margin: 0;
+    margin-bottom: 40px;
+}
+
+.Correo, .Contraseña{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    line-height: 50px;
+    margin-bottom: 20px;
+}
+
+.input {
+    justify-content: center;
+    background: transparent;
+    border-style: initial;
+    border-bottom: solid 2px white;
+    width: 350px;
+
+}
+
+.input-correo {
+    background: transparent;
+    border-style: initial;
+    border-bottom: solid 2px white;
+    width: 350px;
+    
+}
+
+.Contraseña {
+    margin-bottom: 30px;
+}
