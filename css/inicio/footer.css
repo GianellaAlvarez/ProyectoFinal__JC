@@ -1,0 +1,76 @@
+/*footer {
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    color: #fff;
+    padding: 10px 10px 22px 94px;
+    text-align: start;
+    font-size: 20px;
+    min-height: 100vh;
+  
+  }
+    
+  footer .piePagina__link {
+    color: #fff;
+    margin: 0 10px;
+    text-decoration: none;
+  }
+    
+  footer img {
+    width: 30px;
+    height: 30px;
+  }
+  */
+
+.footer {
+  display: flex;
+  justify-content: space-around;
+  border-top: 1px solid white;
+  align-items: center;
+
+
+}
+
+.footer__descripcion {
+  display: flex;
+  flex-direction: column;
+  /* height: 130px; */
+  width: 489px;
+}
+
+.footer__normas {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 238px;
+}
+
+.contactoRedes {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 323px;
+
+}
+
+.contacto {
+
+
+}
+
+.aplicacion {
+
+}
+
+.redesSociales {
+
+}
+
+.WhatsApp {
+  height: 63px;
+  top: 568px;
+  position: fixed;
+  left: 1263px;
+}

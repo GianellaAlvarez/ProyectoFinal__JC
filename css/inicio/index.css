@@ -1,0 +1,28 @@
+@import './body.css';
+@import './encabezado.css';
+@import './banner.css';
+@import './Planes.css';
+@import './main.css';
+@import './footer.css';
+
+  
+/* Media queries para hacer la página responsive */
+@media (max-width: 768px) {
+    .encabezado {
+      flex-direction: column;
+      align-items: center;
+    }
+}
+
+@media (max-width: 480px) {
+    .encabezado__titulo {
+      font-size: 24px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+  .container {
+      max-width: 100%; /* Ancho completo para pantallas de celular */
+      padding: 10px;
+  }
+}

@@ -1,0 +1,162 @@
+body {
+    color: white;
+}
+
+.section__div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 60px;
+}
+
+.listaDePlanes {
+    display: flex;
+    width: 80%;
+    padding: 0;
+    list-style-type: none; 
+    margin-left: 0; 
+    padding-left: 0; 
+    margin: auto;
+    margin-bottom: 25px;
+
+}
+
+
+.listaDePlanes__encabezado {
+    height: 125px;;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border-bottom: 0.1px solid #b0adad;
+}
+
+.encabezado2, .encabezado3 {
+    padding: 1.2px;
+
+}
+
+.listaDePlanes__flotante {
+    height: 27px;
+    width: 121px;
+    border-radius: 5px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    position: absolute;
+    top: 11.5cm;
+    background: #40f0f0;
+    left: 16.5cm;
+    color: black;
+    
+}
+
+.listaDePlanes__descripcion {
+    display: flex;
+    flex-direction: column;
+    font-family: cursive;
+    line-height: 10px;
+    padding: 0;
+
+}
+
+.listaDePlanes__descripcion li {
+    border-bottom: 0.1px solid #b0adad;
+
+}
+
+.listaDePlanes__descripciones {
+    width: 740px;
+    padding: 3px;
+
+}
+
+.listaDePlanes__descripcionEncabezado {
+    margin: 0;
+    font-size: 14px;
+    text-align: center;
+    font-family: system-ui;
+}
+
+
+.listaDePlanes__titulo {
+    font-family: cursive;
+    font-size: 22px;
+    text-align: center;
+    margin: 0;
+}
+
+.titulo3 {
+    font-size: 16px;
+}
+
+.listaDePlanes__factura {
+    border: 3px solid #40f0f0;
+    border-radius: 12px;
+    width: 280px;
+
+}
+
+.listaDePlanes__beneficios li {
+    height: 42px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 0.1px solid #b0adad;
+
+}
+
+.listaDePlanes__columna {
+    width: 270px;
+
+}
+
+
+.listaDePlanes li {
+    list-style-type: none; /* Elimina los marcadores de lista de los elementos <li> */
+    
+}
+
+.listaDePlanes__beneficios {
+    text-align: center;
+    padding: 0;
+
+}
+
+.listaDePlanes__footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 116px;
+}
+
+.listaDePlanes__precios, .listaDePlanes__precio, .listaDePlanes__fidelidad{
+    margin: 0;
+}
+
+.listaDePlanes__precio {
+    font-family: cursive;
+}
+
+.listaDePlanes__fidelidad {
+    font-family: monospace;
+
+}
+
+.botonPlan {
+    background: transparent;
+    border: 1px solid white;
+    height: 50px;
+    width: 250px;
+    border-radius: 5px;
+    color: white;
+    font-family: revert;
+    font-size: 20px;
+    margin: auto;
+}
+  
+.botonPlan:hover {
+    cursor: pointer;
+    transition: 0.3s;
+}
