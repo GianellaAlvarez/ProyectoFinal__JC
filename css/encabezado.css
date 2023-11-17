@@ -1,15 +1,4 @@
-@import '../body.css';
-@import '../encabezado.css';
-@import './slider.css';
-@import './Planes.css';
-@import './main.css';
-@import './reseñas.css';
-@import './footer.css';
-
-  
-/* ENCANBEZADO */
-@media (max-width: 720px ){
-  .encabezado {
+.encabezado {
     background: black;
     display: flex;
     align-items: center;
@@ -17,11 +6,10 @@
     color: #fff;
     height: 95px;
     position: fixed;
-    top: -105px;
     left: 15px;
     width: 97.8%;
     transition: top 0.3s ease; 
-    z-index: 1;
+    z-index: 2;
   
   /* Cuando se desplaza hacia abajo, muestra el menú */
     .scrolled-down .menu {
@@ -29,12 +17,10 @@
   }
   }
   
-  .encabezado__titulo {
+.encabezado__titulo {
     padding-left: 13px;
     font-family: math;
     font-size: 30px;
-
-
     font-size: 36px;
     background: linear-gradient(90deg, white, #ffffff, #15ffe4, white); /* Definimos los colores y el blanco */
     -webkit-background-clip: text;
@@ -42,9 +28,9 @@
     color: transparent; /* Hacemos el texto transparente */
     animation: colorTransition 15s linear infinite; /* Ajusta la duración según tus preferencias */
     background-size: 400% auto; /* Ajustamos el tamaño del fondo */
-  }
+}
 
-  @keyframes colorTransition {
+@keyframes colorTransition {
     0% {
         background-position: 100% 50%; /* Comienza con el fondo a la derecha */
     }
@@ -57,41 +43,50 @@
     100% {
         background-position: 0% 50%; /* Finaliza la transición de izquierda a derecha */
     }
-  }
+}
   
-  .encabezado__div {
+.encabezado__div {
     display: flex;
     align-items: center;
-  }
+}
   
-  .encabezado__img {
+.encabezado__img {
     padding-left: 95px;
-  }
+}
     
-  .encabezado__nav {
+.encabezado__nav {
     display: flex;
     font-family: system-ui;
     padding-right: 102px;
-  }
+}
     
-  .encabezado__nav__link {
+.encabezado__nav__link {
     color: #fff;
     text-decoration: none;
     padding: 10px 20px;
     font-size: 15px;
   
-  }
+}
 
-  .encabezado__nav__link:hover {
+.entrar {
+    border: 1px solid white;
+    border-radius: 20px;
+    height: 20px;
+    width: 45px;
+    text-align: center;
+}
+
+.seleccionado {
+    /* Estilos para el elemento del menú seleccionado */
+    color: red; /* Cambia el color según tu preferencia */
+    font-weight: bold; /* Puede ser otro estilo para enfatizar */
+  }
+  
+
+/*
+.encabezado__nav__link:hover {
     box-shadow: 1px 1px 10px 5px rgb(105 255 227 / 20%);
     cursor: pointer;
-  }
+    border-radius: 15px;
 }
-
-@media (min-width: 480px) {
-    .encabezado__titulo {
-      font-size: 24px;
-    }
-}
-
-
+*/

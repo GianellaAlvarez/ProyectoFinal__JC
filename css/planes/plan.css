@@ -1,4 +1,5 @@
-@import './encabezado.css';
+@import '../encabezado.css';
+@import '../body.css';
 
 body {
     background: black;

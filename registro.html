@@ -1,74 +1,61 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Contactanos</title>
-    <link rel="stylesheet" href="./css/registro/registro.css">
-</head>
-<body>
-
+    <link rel="stylesheet" href="./css/registro/registro.css" />
+  </head>
+  <body>
     <div class="body">
+      <div id="menu"></div>
 
-        <header class="encabezado">
-            <div class="encabezado__div">
-                <a href="./index.html"><img class="encabezado__img" src="./img/gimnasio.png" alt="Logo"></a>
-              <h1 class="encabezado__titulo">FitEssence</h1>
+      <div class="div">
+        <form class="formulario">
+          <h2>Registrate</h2>
+
+          <div class="div_NA">
+            <div class="NombreApellido">
+              <label for="">Nombre</label>
+              <input class="input" type="text" name="" id="" required />
             </div>
-            <nav class="encabezado__nav">
-              <a href="./index.html" class="encabezado__nav__link">Inicio</a>
-              <a href="./mas.html" class="encabezado__nav__link">Servicios</a>
-              <a href="./registro.html" target="_BLANK" class="encabezado__nav__link">Entrar</a>
-              <a href="./contacto.html" class="encabezado__nav__link">Contacto</a>
-              <a href="./sobreNosotros.html" class="encabezado__nav__link">Sobre Nosotros</a>
-            </nav>
-          </header>
-    
-          <div class="div">
-            <form class="formulario">
-                <h2>Registrate</h2>
-            
-                <div class="div_NA">
-                <div class="NombreApellido">
-                    <label for="">Nombre</label>
-                    <input class="input" type="text" name="" id="" required>
-                </div>
-                <div class="NombreApellido">
-                    <label for="">Apellido</label>
-                    <input class="input" type="text" name="" id="" required>
-                </div>
-                </div>
-    
-                <div class="Correo">
-                    <label for="">Correo</label>
-                    <input class="input-correo" type="email" required>
-                </div>
-    
-                <div class="ContraseñaGenero">
-                    <div class="Contraseña">
-                        <label for="">Contraseña</label>
-                        <input class="input" type="password">
-                    </div>
-                    <div class="Genero">
-                        <label for="Genero">Genero</label>
-                        <label class="labelGenero">Hombre</label>
-                        <input class="input-radio1" type="radio" name="Genero">
-                        <label class="labelGenero">Mujer</label>
-                        <input class="input-radio2" type="radio" name="Genero">
-                    </div>
-                </div>
-          
-                <div class="Boton">
-                    <a href="./IniciarSeccion.html"> <button>Registrarme</button></a>
-                    <p>¡Gracias por registrarte!</p>
-                </div>
-            
-            </form>
+            <div class="NombreApellido">
+              <label for="">Apellido</label>
+              <input class="input" type="text" name="" id="" required />
+            </div>
           </div>
 
-    </div>
-    
-    
+          <div class="Correo">
+            <label for="">Correo</label>
+            <input class="input-correo" type="email" required />
+          </div>
 
-</body>
+          <div class="ContraseñaGenero">
+            <div class="Contraseña">
+              <label for="">Contraseña</label>
+              <input class="input" type="password" />
+            </div>
+            <div class="Genero">
+              <label for="Genero">Genero</label>
+              <label class="labelGenero">Hombre</label>
+              <input class="input-radio1" type="radio" name="Genero" />
+              <label class="labelGenero">Mujer</label>
+              <input class="input-radio2" type="radio" name="Genero" />
+            </div>
+          </div>
+
+          <div class="Boton">
+            <a href="./IniciarSeccion.html" id="mostrarBoton"> <button>Registrarme</button></a>
+            <p id="textoOculto" style="display: none;">¡Gracias por registrarte!</p>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <div id="footer"></div>
+
+    <script src="./js/parrafoRegistro.js"></script>
+    <script src="./js/nav.js"></script>
+    <script src="./js/footer.js"></script>
+  </body>
 </html>

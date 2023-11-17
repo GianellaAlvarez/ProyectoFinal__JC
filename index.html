@@ -3,36 +3,213 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>FitEssence</title>
+
+  
+  <!--=============== FAVICON ===============-->
+  <link rel="icon" href="./img/Favicon.png" type="image/x-icon"/>
+
+  <!--=============== BOXICONS ===============-->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css" />
+  
+  <!--=============== SWIPER CSS ===============-->
+  <link rel="stylesheet" href="./css/swiper-bundle.min.css">
+
   <link rel="stylesheet" href="./css/inicio/index.css">
+
+  
+  <title>FitEssence</title>
 </head>
 <body>
 
-  <div class="body">
-    <header class="encabezado">
-      <div class="encabezado__div">
-        <a href="./index.html"><img class="encabezado__img" src="./img/gimnasio.png" alt="Logo"></a>
-        <h1 class="encabezado__titulo">FitEssence</h1>
-      </div>
-      <nav class="encabezado__nav">
-        <a href="./index.html" class="encabezado__nav__link">Inicio</a>
-        <a href="./mas.html" class="encabezado__nav__link">Servicios</a>
-        <a href="./registro.html" target="_BLANK" class="encabezado__nav__link">Entrar</a>
-        <a href="./contacto.html" class="encabezado__nav__link">Contacto</a>
-        <a href="./sobreNosotros.html" class="encabezado__nav__link">Sobre Nosotros</a>
-      </nav>
-    </header>
-    <main class="main">
-      <div class="main__contenido">
-        <div class="main__banner">
-          <h2 class="main__subtitulo">¡Eleva tu energía y alcanza tus metas con Fit Essence!</h2>
-          <a href="./mas.html" target="_BLANK"><button  class="main__boton"  >¡Ver planes!</button></a>
-        </div>
-      </div>
-      
-    </main>
+  <div class="body" id="body">
+    <div id="menu"></div>
 
-    <section class="section">
+    <section class="home container" id="home">
+      <div class="swiper home-swiper">
+        <div class="swiper-wrapper">
+          <!-- HOME SLIDER 1 -->
+          <section class="swiper-slide">
+            <div class="home__content grid">
+              <div class="home__group">
+                <img src="./img/FitEssenceLogo.gif" alt="" class="home__img logo" />
+                <!-- Oculto
+                  <div class="home__indicator"></div>
+
+                <div class="home__details-img">
+                  <h4 class="home__details-title">Valido hasta:</h4>
+                  <span class="home__details-subtitle">12 diciembre 2023</span>
+                </div>
+                -->
+              </div>
+
+              <div class="home__data">
+                <h3 class="home__subtitle">Descuentos Increibles</h3>
+                <h1 class="home__title">
+                  ¡COMIENZA <br />
+                  A ENTRENAR <br />
+                  AHORA!
+                </h1>
+                <p class="home__description">Únete a nosotros hoy mismo. Al inscribirte, tendrás acceso a nuestras instalaciones y 
+                  a un equipo dedicado a tu éxito en el fitness. Descubre cómo podemos ayudarte a lograr tus objetivos de salud y bienestar. ¡Esperamos verte pronto en el gimnasio!
+
+                </p>
+
+                <div class="home__buttons">
+                  <a href="#" class="button">Ver Planes</a>
+                  <a href="#planes" class="button--link button--flex">Ver Tienda <i class="bx bx-right-arrow-alt button__icon"></i></a>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <!-- HOME SLIDER 2 -->
+          <section class="swiper-slide">
+            <div class="home__content grid">
+              <div class="home__group">
+                <img src="./img/promocional.gif" alt="" class="home__img" />
+                <div class="home__indicator"></div>
+
+                <div class="home__details-img">
+                  <h4 class="home__details-title">Valido hasta:</h4>
+                  <span class="home__details-subtitle">30 Marzo 2024</span>
+                </div>
+              </div>
+
+              <div class="home__data">
+                <h3 class="home__subtitle">Solo para nuevos usuarios</h3>
+                <h1 class="home__title">
+                  ¡¡75% <br />
+                  DE <br />
+                  DESCUENTO!!
+                </h1>
+                <p class="home__description">Aprovecha esta <b>SUPER</b> oferta, inicia con el ¡<b>PLAN BLACK</b> por tan solo <b>$22.500 </b> los 2 primeros meses!</p>
+
+                <div class="home__buttons">
+                  <a href="#" class="button">Obtener</a>
+                  <a href="#" class="button--link button--flex">Ver Planes <i class="bx bx-right-arrow-alt button__icon"></i></a>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <!-- HOME SLIDER 3 -->
+          <section class="swiper-slide">
+            <div class="home__content grid">
+              <div class="home__group">
+                <img src="assets/img/home3-img.png" alt="" class="home__img" />
+                <div class="home__indicator"></div>
+
+                <div class="home__details-img">
+                  <h4 class="home__details-title">Valido para:</h4>
+                  <span class="home__details-subtitle">
+                    Nuevos Usuarios <br>
+                    Clientes con más de 6 meses de antiguedad
+                  </span>
+                </div>
+              </div>
+
+              <div class="home__data">
+                <h3 class="home__subtitle">Nuevos productos cada mes</h3>
+                <h1 class="home__title">
+                  30% <br />
+                  DE <br />
+                  DESCUENTO
+                </h1>
+                <p class="home__description">In search for cute little puppy, Captain Sem has come back from his tragic death. With his hogwarts certified power he promise to be a hero for all of ghostkind.</p>
+
+                <div class="home__buttons">
+                  <a href="#" class="button">Book Now</a>
+                  <a href="#planes" class="button--link button--flex">Track Record <i class="bx bx-right-arrow-alt button__icon"></i></a>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+    </section>
+
+    <div class="main__contenedor">
+      <div class="main__contenedor__div">
+          <h2 class="main__contenedor__div__subtitulo">Estructura</h2>
+      </div>
+      <ul class="main__contenedor__lista1">
+          <li class="main__contenedor__div__lista1__li">
+              <span class="main__contenedor__div__lista1__li__img">
+                  <img src="./img/musica.png" alt="">
+              </span>
+              <p>Música Personalizada</p>
+          </li>
+          <li class="main__contenedor__div__lista1__li">
+              <span class="main__contenedor__div__lista1__li__img">
+                  <img src="./img/aireAcondicionado.png" alt="">
+              </span>
+              <p>Aire Acondicionado</p>
+          </li>
+          <li class="main__contenedor__div__lista1__li">
+              <span class="main__contenedor__div__lista1__li__img">
+                  <img src="./img/estacionamiento-de-autos.png" alt="">
+              </span>
+                  <p>Parqueadero Carro Gratis</p>
+          </li>
+          <li class="main__contenedor__div__lista1__li">
+              <span class="main__contenedor__div__lista1__li__img">
+                  <img src="./img/moto.png" alt="">
+              </span>
+              <p>Parqueadero Moto Gratis</p>
+          </li>
+          <li class="main__contenedor__div__lista1__li">
+              <span class="main__contenedor__div__lista1__li__img">
+                  <img src="./img/claseEnGrupo.png" alt="">
+              </span>
+              <p>Clases Grupales</p>
+          </li>
+          <li class="main__contenedor__div__lista1__li">
+              <span class="main__contenedor__div__lista1__li__img">
+                  <img src="./img/entrenamientoPersonalizado.png" alt="">
+              </span>
+              <p>entrenamiento Personalizado</p>
+          </li>
+          <li class="main__contenedor__div__lista1__li">
+              <span class="main__contenedor__div__lista1__li__img">
+                  <img src="./img/cardio.png" alt="">
+              </span>
+              <p>Zona Cardio</p>
+          </li>
+          <li class="main__contenedor__div__lista1__li">
+              <span class="main__contenedor__div__lista1__li__img">
+                  <img src="./img/pesas.png" alt="">
+              </span>
+              <p>Peso Libre</p>
+          </li>
+          <li class="main__contenedor__div__lista1__li">
+              <span class="main__contenedor__div__lista1__li__img">
+                  <img src="./img/bicicletaGym.png" alt="">
+              </span>
+              <p>Salón Cycling</p>
+          </li>
+          <li class="main__contenedor__div__lista1__li">
+              <span class="main__contenedor__div__lista1__li__img">
+                  <img src="./img/ducha.png" alt="">
+              </span>
+              <p>Duchas</p>
+          </li>
+          <li class="main__contenedor__div__lista1__li">
+              <span class="main__contenedor__div__lista1__li__img">
+                  <img src="./img/casilleros.png" alt="">
+              </span>
+              <p>Casillero Propio</p>
+          </li>
+          <li class="main__contenedor__div__lista1__li">
+              <span class="main__contenedor__div__lista1__li__img">
+                  <img src="./img/sillaMasajes.png" alt="">
+              </span>
+              <p>Silla Masajes</p>
+          </li>
+      </ul>
+    </div>
+
+    <section class="section" id="planes">
       <div class="section__div">
           <ul class="listaDePlanes">
               <li class="listaDePlanes__descripciones"> 
@@ -123,7 +300,7 @@
                         <p class="listaDePlanes__precios">
                           DESDE
                         </p>
-                      <p class="listaDePlanes__precio">
+                      <p class="listaDePlanes__precio" id="miParrafo">
                         $ 89.900 
                         <span class="nuevoPlan__mes"> /mes</span>
                       </p>
@@ -254,86 +431,6 @@
       </div>
     </section>
 
-    <div class="main__contenedor">
-      <div class="main__contenedor__div">
-          <h2 class="main__contenedor__div__subtitulo">Estructura</h2>
-      </div>
-      <ul class="main__contenedor__lista1">
-          <li class="main__contenedor__div__lista1__li">
-              <span class="main__contenedor__div__lista1__li__img">
-                  <img src="./img/musica.png" alt="">
-              </span>
-              <p>Música Personalizada</p>
-          </li>
-          <li class="main__contenedor__div__lista1__li">
-              <span class="main__contenedor__div__lista1__li__img">
-                  <img src="./img/aireAcondicionado.png" alt="">
-              </span>
-              <p>Aire Acondicionado</p>
-          </li>
-          <li class="main__contenedor__div__lista1__li">
-              <span class="main__contenedor__div__lista1__li__img">
-                  <img src="./img/estacionamiento-de-autos.png" alt="">
-              </span>
-                  <p>Parqueadero Carro Gratis</p>
-          </li>
-          <li class="main__contenedor__div__lista1__li">
-              <span class="main__contenedor__div__lista1__li__img">
-                  <img src="./img/moto.png" alt="">
-              </span>
-              <p>Parqueadero Moto Gratis</p>
-          </li>
-          <li class="main__contenedor__div__lista1__li">
-              <span class="main__contenedor__div__lista1__li__img">
-                  <img src="./img/claseEnGrupo.png" alt="">
-              </span>
-              <p>Clases Grupales</p>
-          </li>
-          <li class="main__contenedor__div__lista1__li">
-              <span class="main__contenedor__div__lista1__li__img">
-                  <img src="./img/entrenamientoPersonalizado.png" alt="">
-              </span>
-              <p>entrenamiento Personalizado</p>
-          </li>
-          <li class="main__contenedor__div__lista1__li">
-              <span class="main__contenedor__div__lista1__li__img">
-                  <img src="./img/cardio.png" alt="">
-              </span>
-              <p>Zona Cardio</p>
-          </li>
-          <li class="main__contenedor__div__lista1__li">
-              <span class="main__contenedor__div__lista1__li__img">
-                  <img src="./img/pesas.png" alt="">
-              </span>
-              <p>Peso Libre</p>
-          </li>
-          <li class="main__contenedor__div__lista1__li">
-              <span class="main__contenedor__div__lista1__li__img">
-                  <img src="./img/bicicletaGym.png" alt="">
-              </span>
-              <p>Salón Cycling</p>
-          </li>
-          <li class="main__contenedor__div__lista1__li">
-              <span class="main__contenedor__div__lista1__li__img">
-                  <img src="./img/ducha.png" alt="">
-              </span>
-              <p>Duchas</p>
-          </li>
-          <li class="main__contenedor__div__lista1__li">
-              <span class="main__contenedor__div__lista1__li__img">
-                  <img src="./img/casilleros.png" alt="">
-              </span>
-              <p>Casillero Propio</p>
-          </li>
-          <li class="main__contenedor__div__lista1__li">
-              <span class="main__contenedor__div__lista1__li__img">
-                  <img src="./img/sillaMasajes.png" alt="">
-              </span>
-              <p>Silla Masajes</p>
-          </li>
-      </ul>
-    </div>
-
     <div class="main__contenedor2">
       <div>
       <h2>Clases Grupales</h2>
@@ -352,7 +449,7 @@
                       <ul class="main__contenedor2__ul">
                           <li class="main__contenedor2__ul__li">
                               <span>
-                                  <img class="main__contenedor2__ul__img" src="./img/reloj.png" alt="">
+                                <i class="fa-regular fa-clock fa-spin"></i>
                               </span>
                               <p class="main__contenedor2__ul__p">Duración</p>
                               <p class="main__contenedor2__ul__p">45 min</p>
@@ -377,7 +474,7 @@
                       <ul class="main__contenedor2__ul">
                           <li class="main__contenedor2__ul__li">
                               <span>
-                                  <img class="main__contenedor2__ul__img" src="./img/reloj.png" alt="">
+                                <i class="fa-regular fa-clock fa-spin"></i>
                               </span>
                               <p class="main__contenedor2__ul__p">Duración</p>
                               <p class="main__contenedor2__ul__p">45 min</p>
@@ -401,7 +498,7 @@
                       <ul class="main__contenedor2__ul">
                           <li class="main__contenedor2__ul__li">
                               <span>
-                                  <img class="main__contenedor2__ul__img" src="./img/reloj.png" alt="">
+                                <i class="fa-regular fa-clock fa-spin"></i>
                               </span>
                               <p class="main__contenedor2__ul__p">Duración</p>
                               <p class="main__contenedor2__ul__p">45 min</p>
@@ -415,7 +512,8 @@
 
           <li class="main__contenedor2__lista2__li">
               <div class="main__contenedor2__lista2__li__div__img">
-                  <img class="main__contenedor2__lista2__li__div__img-img" src="https://assets.smartfit.com.br/attachments/e3ee017cc5c54020571d8658a31809271dd6a945/store/9452478183199875670b697d921e97f1a443337fd8dca6971b59be038514/home_banner" alt="imagen">
+                  <img class="main__contenedor2__lista2__li__div__img-img" 
+                  src="https://assets.smartfit.com.br/attachments/e3ee017cc5c54020571d8658a31809271dd6a945/store/9452478183199875670b697d921e97f1a443337fd8dca6971b59be038514/home_banner" alt="imagen">
 
                   <div class="main__contenedor2__lista2__div">
                       <h3>SUSPENSIÓN</h3>
@@ -425,7 +523,7 @@
                       <ul class="main__contenedor2__ul">
                           <li class="main__contenedor2__ul__li">
                               <span>
-                                  <img class="main__contenedor2__ul__img" src="./img/reloj.png" alt="">
+                                <i class="fa-regular fa-clock fa-spin"></i>
                               </span>
                               <p class="main__contenedor2__ul__p">Duración</p>
                               <p class="main__contenedor2__ul__p">45 min</p>
@@ -439,8 +537,12 @@
 
           <li class="main__contenedor2__lista2__li">
               <div class="main__contenedor2__lista2__li__div__img">
-                  <img class="main__contenedor2__lista2__li__div__img-img" src="https://assets.smartfit.com.br/attachments/9837744130eb742e58c03e40f925f3ac9907b40d/store/1bcc3bdfd657e844eafc4aba43676fff812559fc84b9a651e1c99bd03893/home_banner" alt="imagen">
+                <div>
+                  <img class="main__contenedor2__lista2__li__div__img-img" 
+                  src="https://assets.smartfit.com.br/attachments/9837744130eb742e58c03e40f925f3ac9907b40d/store/1bcc3bdfd657e844eafc4aba43676fff812559fc84b9a651e1c99bd03893/home_banner" alt="imagen">
 
+                </div>
+                  
                   <div class="main__contenedor2__lista2__div">
                       <h3>SHAPE</h3>
                   </div>
@@ -449,7 +551,7 @@
                       <ul class="main__contenedor2__ul">
                           <li class="main__contenedor2__ul__li">
                               <span>
-                                  <img class="main__contenedor2__ul__img" src="./img/reloj.png" alt="">
+                                <i class="fa-regular fa-clock fa-spin"></i>
                               </span>
                               <p class="main__contenedor2__ul__p">Duración</p>
                               <p class="main__contenedor2__ul__p">45 min</p>
@@ -463,27 +565,104 @@
       </ul>
     </div>
 
+    <div class="reseñas">
+      <section class="reseñas__titulo">
+        <h2>Reseñas de Usuarios</h2>
+      </section>
+
+      <section class="reseñaUsuario">
+
+        <div class="reseña">
+          <section class="usuario">
+            <img src="https://i.scdn.co/image/ab67616100005174abd3e69b432d6187cf4e28c3" alt=""  class="foto">
+            <h3>Manuel Turizo</h3>
+          </section>
+          <section id="contenedor1">
+            <img src="./img/resenas.png" alt="Estrellas de la reseña" class="estrella" class="img-cambiar" >
+            <p>FitEssence es simplemente excepcional. Equipos de alta calidad, instructores expertos y un ambiente motivador. 
+              Las clases grupales son geniales y la comunidad es acogedora. ¡Un lugar increíble para alcanzar tus metas!
+            </p>
+          </section>
+          
+        </div>
+  
+        <div class="reseña">
+          <section class="usuario">
+            <img src="https://los40.com.mx/los40/imagenes/2019/07/01/actualidad/1562008429_269920_1562016759_noticiarelacionadaprincipal_normal.jpg" alt="" class="foto">
+            <h3>Joy Huerta</h3>
+          </section>
+          <section id="contenedor2">
+            <img src="./img/resenas.png" alt="Estrellas de la reseña" class="estrella" class="img-cambiar">
+            <p>Este gimnasio es una verdadera joya. Desde su amplia gama de equipos hasta la atención personalizada de sus instructores, 
+              cada visita es una experiencia motivadora. Las clases, especialmente el yoga al amanecer, son un oasis de tranquilidad en 
+              medio de la rutina diaria.
+            </p>
+          </section>
+        </div>
+  
+        <div class="reseña">
+          <section class="usuario" >
+            <img src="https://static.wixstatic.com/media/4ca1da_ee6008a0cbe64454926ccdbab538dc54~mv2.jpg/v1/fill/w_640,h_642,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/4ca1da_ee6008a0cbe64454926ccdbab538dc54~mv2.jpg" alt="" class="foto">
+            <h3>Juan Gabriel</h3>
+          </section>
+          <section id="contenedor3">
+            <img src="./img/resenas.png" alt="Estrellas de la reseña" class="estrella" class="img-cambiar">
+            <p>Este gimnasio tiene una atmósfera única que te impulsa a superar tus límites. Las clases de entrenamiento en grupo son intensas 
+              y divertidas, siempre con un equipo de instructores que te desafían a alcanzar tu máximo potencial. La comunidad aquí es como una 
+              familia, ¡siempre animándote a dar lo mejor de ti!
+            </p>
+          </section>
+        </div>
+  
+        <div class="reseña">
+          <section class="usuario" >
+            <img src="https://images.ecestaticos.com/6FUVpWw5Lo51f3Fg8eF1E6XwaTk=/0x0:2000x1333/1200x1200/filters:fill(white):format(jpg)/f.elconfidencial.com%2Foriginal%2F6e3%2F187%2F1ae%2F6e31871aedd1e3937963dcbb6c5dd864.jpg" alt="" class="foto">
+            <h3>Edurne Garcia</h3>
+          </section>
+          <section id="contenedor4">
+            <img src="./img/resenas.png" alt="Estrellas de la reseña" class="estrella" class="img-cambiar">
+            <p>Siempre están trayendo nuevas técnicas y equipos para mantener las rutinas frescas y desafiantes. 
+              La atención meticulosa a la limpieza y la organización es evidente en cada 
+              rincón del gimnasio. Sin duda, el lugar perfecto.
+            </p>
+          </section>
+        </div>
+
+        <div class="reseña">
+          <section class="usuario">
+            <img src="https://hips.hearstapps.com/hmg-prod/images/chris-evans-desnudo-1600108552.jpg?crop=0.742xw:1.00xh;0.0913xw,0&resize=1200:*" alt="" class="foto">
+            <h3>Chris Evan</h3>
+          </section>
+          <section id="contenedor5">
+            <img src="./img/resenas.png" alt="Estrellas de la reseña" class="estrella" class="img-cambiar">
+            <p>Este gimnasio no solo es un lugar para entrenar, sino un espacio donde te sientes acogido desde el primer día. 
+              Los instructores no solo son expertos, sino que se preocupan por tu progreso. Las instalaciones 
+              están impecables y la variedad de clases te permite encontrar siempre algo que se ajuste a tus necesidades. Un espacio 
+              que te hace esperar ansioso cada sesión.
+            </p>
+          </section>
+        </div>
+
+        <div class="reseña">
+          <section class="usuario">
+            <img src="https://hips.hearstapps.com/hmg-prod/images/billie-eilish-rubia-1616055774.jpg" alt="" class="foto">
+            <h3>Billie</h3>
+          </section>
+          <section id="contenedor6">
+            <img src="./img/resenas.png" alt="Estrellas de la reseña" class="estrella" class="img-cambiar">
+            <p>FitEssence no es solo un gimnasio, es un estilo de vida. La energía contagiosa que se siente desde el momento 
+              en que cruzas la puerta es incomparable. Los instructores no solo te guían en tu rutina de ejercicios, 
+              sino que te inspiran a alcanzar tus metas.
+            </p>
+          </section>
+        </div>
+
+      </section>
+      
+
+    </div>
+
     <footer class="footer">
-      <div class="footer__descripcion">
-        <section class="footer__logo">
-          <img src="./img/gimnasio.png" alt="Logo de la empresa">
-          <h3>Fit Essence</h3>
-        </section>
-
-        <p class="footer__parrafo">
-          Únete a nosotros hoy mismo. Al inscribirte, tendrás acceso a nuestras instalaciones de vanguardia 
-          y a un equipo dedicado a tu éxito en el fitness. Descubre cómo podemos ayudarte a lograr tus 
-          objetivos de salud y bienestar. ¡Esperamos verte pronto en el gimnasio!
-        </p>
-      </div>
-
-      <div class="footer__normas">
-        <a href="./normas.html#info1" target="_BLANK">Terminos y Condiciones</a>
-        <a href="./normas.html#info2">Politicas de privacidad</a>
-        <a href="./normas.html#info3">Servicio al cliente</a>
-        <a href="./normas.html#info4">Cláusula de cancelación</a>
-        <a href="./normas.html#info5">Normas FitEssence</a>
-      </div>
 
       <div class="footer__ContactoRedes">
         <section class="contacto">
@@ -494,28 +673,44 @@
         </section>
 
         <section class="aplicacion">
-          <a href=""><img src="./img/android.png" alt="Logo de android"></a>
-          <a href=""><img src="./img/apple.png" alt="Logo de IOS"></a>
+          <a href=""><i class="fa-brands fa-android"></i></a>
+          <a href=""><i class="fa-brands fa-apple"></i></a>
+        </section>
+      </div>
+
+      <div class="footer__descripcion">
+        <section class="footer__logo">
+          <a href="#body"><img src="./img/FitEssenceLogo.gif" alt="Logo de la empresa"></a>
         </section>
 
         <section class="footer__redesSociales">
-          <a href="https://www.instagram.com/smartfitco/" target="_BLANK"><img src="./img/instagram.png" alt="Logo de Instagram"></a>
-          <a href="https://www.facebook.com/SmartFitOficialColombia/" target="_BLANK"><img src="./img/facebook.png" alt="Logo de Facebook"></a>
-          <a href="https://www.youtube.com/channel/UCeu50Q7nQyjSQHNz7nM9lLw" target="_BLANK"><img src="./img/youtube.png" alt=""></a>
-          <a href="https://vm.tiktok.com/ZMdrfH8Vs/" target="_BLANK"><img src="./img/Tiktok.png" alt=""></a>
+          <a href="https://www.instagram.com/smartfitco/" target="_BLANK"><i class="fa-brands fa-instagram icon" ></i></i></a>
+          <a href="https://www.facebook.com/SmartFitOficialColombia/" target="_BLANK"><i class="fa-brands fa-facebook-f icon"></i></a>
+          <a href="https://www.youtube.com/channel/UCeu50Q7nQyjSQHNz7nM9lLw" target="_BLANK"><i class="fa-brands fa-youtube icon"></i></a>
+          <a href="https://vm.tiktok.com/ZMdrfH8Vs/" target="_BLANK"><i class="fa-brands fa-tiktok icon"></i></a>
         </section>
-        
-
       </div>
+
+      <div class="footer__normas">
+        <a href="./normas.html#info1" target="_BLANK">Terminos y Condiciones</a>
+        <a href="./normas.html#info2">Politicas de privacidad</a>
+        <a href="./normas.html#info3">Servicio al cliente</a>
+        <a href="./normas.html#info4">Cláusula de cancelación</a>
+        <a href="./normas.html#info5">Normas FitEssence</a>
+      </div>
+
 
     </footer>
 
-    <div class="iconoWhatFlotante">
-      <a href=""><img class="WhatsApp" src="./img/whatsapp.png" alt="Logo de WhatsApp"></a>
-    </div>
-
-
   </div>
+
+  <script src="js/swiper-bundle.min.js"></script>
+  <script src="./js/normas.js"></script>
+  <script src="./js/homeSwiper.js"></script>
+  <script src="./js/parrafo.js"></script>
+  <script src="./js/imgAlPasarMouse.js"></script>
+  <script src="./js/nav.js"></script>
+  <script src="https://kit.fontawesome.com/29f8b06a46.js" crossorigin="anonymous"></script>
 
 
 </body>

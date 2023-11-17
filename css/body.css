@@ -1,0 +1,16 @@
+body {
+  font-family: 'Times New Roman', Times, serif;
+  margin: 0;
+  padding: 0;
+  background: black;
+}
+
+.body {
+  position: absolute;
+  left: 15px;
+  right: 15px;
+  box-shadow: 1px 5px 30px 10px rgb(105 255 227 / 20%); 
+  height: max-content;
+}
+
+@media (min-width:410px){}

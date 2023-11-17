@@ -116,7 +116,7 @@ a{
 /* Swiper Class */
 .swiper-pagination{
     position: initial;
-    margin-top: 10px;
+    margin-top: -10px;
   }
   
   .swiper-pagination-bullet{
@@ -197,6 +197,10 @@ a{
 }
   .home__img{
     height: 300px;
+  }
+
+  .logo {
+    height: 450px;
   }
   .home__indicator{
     top: initial;

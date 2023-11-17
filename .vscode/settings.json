@@ -1,0 +1,6 @@
+{
+    "liveServer.settings.port": 5501,
+    "prettier.printWidth": 1000,
+    "prettier.vueIndentScriptAndStyle": false,
+    "prettier.useTabs": true
+}
