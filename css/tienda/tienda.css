@@ -1,0 +1,16 @@
+@import '';
+@import '../encabezado.css';
+@import './menu.css';
+@import './informacion.css';
+@import './productos.css';
+@import '../inicio/footer.css';
+
+
+body {
+    background: black;
+    color: white;
+}
+
+.encabezado {
+    position: fixed;
+}

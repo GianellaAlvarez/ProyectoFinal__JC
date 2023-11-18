@@ -1,0 +1,70 @@
+.titulo {
+    margin: -65px 0px 80px 0px;
+    font-size: 40px;
+    text-align: center;
+}
+
+.productos {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 60px;
+    justify-content: space-between;
+    gap: 35px;
+
+}
+
+.producto {
+    height: 350px;
+    width: 260px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.imgProducto {
+    height: 225px;
+}
+
+h4, p {
+    margin: 0;
+}
+
+.tipo {
+    font-size: 12px;
+    margin-top: 15px;
+}
+
+h4, p {
+    font-size: 17px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.carrito {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+input {
+    height: 25px;
+    width: 45px;
+    text-align: center;
+    font-size: 16px;
+    margin-right: 10px;
+    background: transparent;
+    border: 1px solid white;
+    border-radius: 10px;
+    color: white;
+}
+
+button {
+    height: 30px;
+    background: #15ffe4;
+    border: none;
+    border-radius: 10px;
+    font-family: cursive;
+}
+
+button:hover {
+    cursor: pointer;
+}
