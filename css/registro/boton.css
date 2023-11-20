@@ -1,21 +1,16 @@
-.Boton {
-    display: flex;
-    flex-direction: row;
-    gap: 280px;
-    margin-bottom: 0;;
-}
 
-button {
+
+.Boton {
     height: 40px;
     width: 120px;
     border-radius: 20px;
-    font-size: 15px;
+    font-size: 18px;
     background: transparent;
     color: white;
     border: 1px solid white;
 }
 
-button:hover {
+.Boton:hover {
     cursor: pointer;
     text-decoration: underline;
 }

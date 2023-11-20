@@ -1,0 +1,90 @@
+@import './nav.css';
+
+body {
+    background: black;
+    color: white;
+}
+
+.contenedor {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 50px;
+}
+
+.datos {
+    border: 1px solid white;
+    height: 382px;
+    width: 450px;
+    padding: 20px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+span {
+    font-size: 40px;
+    font-family: 'Shadows Into Light', cursive;
+    margin-top: -20px;
+    margin-bottom: 35px;
+}
+
+#plan {
+    font-size: 30px;
+}
+
+.pago {
+    display: flex;
+    align-items: center;
+}
+
+i {
+    margin-left: 20px;
+    font-size: 40px;
+}
+
+.datos p {
+    font-size: 20px;
+    font-family: 'Noto Serif', serif;
+    margin: 0;
+    line-height: 45px;
+}
+
+.opcion p {
+    font-size: 18px;
+    font-family: 'Playfair Display', serif;
+
+}
+
+.opciones {
+    width: 500px;
+    height: 414px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    cursor: pointer;
+}
+
+.opciones img {
+    height: 120px;
+}
+
+.opcion {
+    border: 1px solid;
+    height: 170px;
+    width: 170px;
+    padding: 15px;
+    text-align: center;
+    border-radius: 20px;
+    
+}

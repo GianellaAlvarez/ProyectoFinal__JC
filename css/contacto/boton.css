@@ -20,3 +20,7 @@ button:hover {
     background: transparent;
     text-decoration: underline;
 }
+
+#textoOculto {
+    display: none;
+}

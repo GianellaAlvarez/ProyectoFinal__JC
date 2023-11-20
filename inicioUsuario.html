@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio Usuario</title>
+    <link rel="stylesheet" href="./css/inicioUsuario/inicio.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant:wght@300&family=Noto+Serif:wght@100&family=Playfair+Display&family=Shadows+Into+Light&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <header class="encabezado">
+        <div class="encabezado__div">
+          <h1 class="encabezado__titulo">FitEssence</h1>
+        </div>
+        <nav class="encabezado__nav">
+          <a href="./index.html" class="encabezado__nav__link">Inicio</a>
+          <a href="./tienda.html" class="encabezado__nav__link">Tienda</a>
+          <a href="./contacto.html" target="_BLANK" class="encabezado__nav__link">Contacto</a>
+          <a href="./registro.html" class="encabezado__nav__link">Registrarse</a>
+          <a href="" class="encabezado__nav__link entrar" id="logout">Cerrar</a>
+          <!--<a href="#" id="logout" class="encabezado__nav__link entrar">Cerrar</a> --->
+        </nav>
+      </header>
+
+    <div class="contenedor">
+        <div class="datos">
+            <span id="nombreApellido"></span>
+            <p id="plan">Plan Black</p>
+            <p>Pago: $ 22.500 / 2 primeros meses</p>
+            <p>metodo de pago: </p>
+            <p class="pago">**** **** **** 0255 <i class='bx bxl-mastercard'></i> </p>
+            <p>fecha de corte: 13/mes</p>
+            <p>Invitaciones restantes: 4</p>
+        </div>
+
+        <div class="opciones">
+            <section class="opcion">
+                <a href="#">
+                    <img src="./img/inscribirse.png" alt="">
+                    <p>Inscribirme a clases</p>
+                </a>
+            </section>
+
+            <section class="opcion">
+                <a href="#">
+                    <img src="./img/invitarAmigo.png" alt="">
+                    <p>Ivitar un amigo</p>
+                </a>
+            </section>
+
+            <section class="opcion">
+                <a href="#">
+                    <img src="./img/formaPago.png" alt="">
+                    <p>Metodos de pago</p>
+                </a>
+            </section>
+
+            <section class="opcion">
+                <a href="">
+                    <img src="./img/informacion.png" alt="">
+                    <p>Configuración</p>
+                </a>
+            </section>
+        </div>
+    </div>
+
+    		<script src="./js/index.js"></script>
+
+    <script src="js/nav.js"></script>
+    <script src="./js/nombreUsuario.js"></script>
+</body>
+</html>

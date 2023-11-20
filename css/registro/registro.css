@@ -1,5 +1,9 @@
-@import '../body.css';
 @import '../encabezado.css';
 @import './formulario.css';
 @import './boton.css';
 @import '../inicio/footer.css';
+
+body {
+    background: black;
+    color: white;
+}

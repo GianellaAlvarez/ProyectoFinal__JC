@@ -22,13 +22,15 @@
   }
   */
 
+body {
+  color: white;
+}
+
 .footer {
   display: flex;
   justify-content: space-around;
   border-top: 1px solid white;
   align-items: center;
-
-
 }
 
 .icon {
