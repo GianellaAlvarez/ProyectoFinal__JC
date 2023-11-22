@@ -1,153 +1,147 @@
 .main__contenedor {
-    margin: auto;
-    width: 100%;
-    max-width: 1140px;
-    margin-top: 80px;
+	margin: auto;
+	width: 100%;
+	max-width: 1140px;
+	margin-top: 80px;
 }
 
 h2 {
-    display: flex;
-    justify-content: center;
-    font-size: 30px;
-    font-family: cursive;
-    color: white;
+	display: flex;
+	justify-content: center;
+	font-size: 30px;
+	font-family: cursive;
+	color: white;
 }
 
 .main__contenedor__lista1 {
-    display: flex;
-    flex-wrap: wrap;
-    list-style: none;
-    align-items: flex-start;
-    justify-content: center;
-    grid-gap: 30px 58px;
-    gap: 30px 58px;
-    width: 100%;
-    margin-top: 80px;
-    margin-bottom: 40px;
-    padding: 0;
-
+	display: flex;
+	flex-wrap: wrap;
+	list-style: none;
+	align-items: flex-start;
+	justify-content: center;
+	grid-gap: 30px 58px;
+	gap: 30px 58px;
+	width: 100%;
+	margin-top: 80px;
+	margin-bottom: 40px;
+	padding: 0;
 }
 
 .main__contenedor__div__lista1__li {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 117px;
-    color: white;
-    justify-content: center;
-    text-align: center;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 117px;
+	color: white;
+	justify-content: center;
+	text-align: center;
 }
 
 .main__contenedor__div__lista1__li__img {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
 }
 
 .parrafo {
-    font-size: 13px;
-    text-align: justify;
-    padding-inline: 19px;
+	font-size: 13px;
+	text-align: justify;
+	padding-inline: 19px;
 }
 
 .main__contenedor2__lista2 {
-    display: flex;
-    padding: 20px 45px;
-    overflow-x: scroll;
-    gap: 0px;
-    grid-gap: 36px;
-    margin-top: 50px;
-
+	display: flex;
+	padding: 20px 45px;
+	overflow-x: scroll;
+	gap: 0px;
+	grid-gap: 36px;
+	margin-top: 50px;
 }
 
 .main__contenedor2__div__lista2 {
-    display: flex;
-    grid-gap: 30px;
-    gap: 30px;
-    width: 100%;
-    margin: 0;
-    padding: 10px 30px;
-    list-style: none;
-    transition: all .2s;
-    user-select: none;
-    -ms-overflow-style: none;
-    scrollbar-width: none;
-
+	display: flex;
+	grid-gap: 30px;
+	gap: 30px;
+	width: 100%;
+	margin: 0;
+	padding: 10px 30px;
+	list-style: none;
+	transition: all 0.2s;
+	user-select: none;
+	-ms-overflow-style: none;
+	scrollbar-width: none;
 }
 
 .main__contenedor2__lista2::-webkit-scrollbar {
-    display: none;
-    
+	display: none;
 }
 
 hr {
-    width: 70%;
+	width: 70%;
 }
 
 .main__contenedor2__lista2__li {
-    display: flex;
-    flex-shrink: 0;
-    width: 260px;
-    margin: 0;
+	display: flex;
+	flex-shrink: 0;
+	width: 260px;
+	margin: 0;
 }
 
 .main__contenedor2__lista2__li__div__img {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    max-width: 285px;
-    min-height: 459px;
-    border-radius: 14px;
-    background: transparent;
-    overflow: hidden;
-    outline: 2px solid transparent;
-    box-shadow: 0 0px 30px rgb(248 247 247 / 20%);
-    transition: .25s;
-    align-items: center;
-    height: 485px;
-
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	max-width: 285px;
+	min-height: 459px;
+	border-radius: 14px;
+	background: transparent;
+	overflow: hidden;
+	outline: 2px solid transparent;
+	box-shadow: 0 0px 30px rgb(248 247 247 / 20%);
+	transition: 0.25s;
+	align-items: center;
+	height: 485px;
 }
 
 .main__contenedor2__lista2__li__div__img-img {
-    width: 100%;
-    object-fit: cover;
-    height: 170px;
+	width: 100%;
+	object-fit: cover;
+	height: 170px;
 }
 
 .main__contenedor2__lista2__div {
-    width: 100%;
-    background: white;
-    text-align: center;
-    color: black;
+	width: 100%;
+	background: white;
+	text-align: center;
+	color: black;
 }
 
 h3 {
-    margin: 10px;
+	margin: 10px;
 }
 
 .main__contenedor2__ul {
-    display: flex;
-    justify-content: center;
-    list-style: none;
-    text-align: center;
-    padding: 0;
-
+	display: flex;
+	justify-content: center;
+	list-style: none;
+	text-align: center;
+	padding: 0;
 }
 
 .main__contenedor2__ul__li {
-    margin-top: 10px;
-    margin-bottom: 10px;
+	margin-top: 10px;
+	margin-bottom: 10px;
 }
 
 .fa-regular {
-    color: aquamarine;
-    font-size: 27px;
+	color: aquamarine;
+	font-size: 27px;
 }
 
 .main__contenedor2__ul__p {
-    margin: 0;
+	margin: 0;
 }
 
 .td {
-    text-align: center;
+	text-align: center;
 }

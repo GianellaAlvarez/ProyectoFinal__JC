@@ -23,63 +23,119 @@
   */
 
 body {
-  color: white;
+	color: white;
 }
 
 .footer {
-  display: flex;
-  justify-content: space-around;
-  border-top: 1px solid white;
-  align-items: center;
+	display: flex;
+	justify-content: space-around;
+	border-top: 1px solid white;
+	align-items: center;
 }
 
 .icon {
-  margin-right: 40px;
-  position: relative;
-  top: -15px;
+	margin-right: 40px;
+	position: relative;
+	top: -15px;
 }
 
 .footer img {
-  height: 171px;
+	height: 171px;
 }
 
 .footer__parrafo {
-  margin-top: -33px;
+	margin-top: -33px;
 }
 
 .footer__redesSociales {
-  padding-left: 40px;
-
+	padding-left: 40px;
 }
 
 .footer__descripcion {
-  display: flex;
-  flex-direction: column;
-  /* height: 130px; */
-  width: 489px;
-  align-items: center;
-
+	display: flex;
+	flex-direction: column;
+	/* height: 130px; */
+	width: 489px;
+	align-items: center;
 }
 
 .footer__normas {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  width: 238px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	width: 238px;
 }
 
 .contactoRedes {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  width: 323px;
-
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	width: 323px;
 }
 
 .fa-brands {
-  color: white;
-  font-size: 23px;
+	color: white;
+	font-size: 23px;
+}
 
+@media (max-width: 500px) {
+	.footer {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: space-evenly;
+		height: 460px;
+	}
+
+	.contacto p {
+		font-size: 20px;
+	}
+
+	.icon {
+		margin-right: 40px;
+		position: relative;
+		top: -15px;
+	}
+
+	.footer img {
+		height: 171px;
+	}
+
+	.footer__parrafo {
+		margin-top: -33px;
+	}
+
+	.footer__redesSociales {
+		padding-left: 40px;
+	}
+
+	.footer__descripcion {
+		display: flex;
+		flex-direction: column;
+		width: 489px;
+		align-items: center;
+	}
+
+	.footer__normas {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		width: 238px;
+	}
+
+	.contactoRedes {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		width: 323px;
+	}
+
+	.fa-brands {
+		color: white;
+		font-size: 23px;
+	}
 }

@@ -1,5 +1,8 @@
-@import './body.css';
-@import './encabezado.css';
+@import '../body.css';
+@import '../encabezado.css';
 @import './menu.css';
 @import './informacion.css';
 
+body {
+    color: white;
+}

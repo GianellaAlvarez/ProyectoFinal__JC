@@ -1,69 +1,122 @@
 .div {
-    display: flex;
-    flex-direction: column;
-    height: 490px;
-    width: 650px;
-    margin: auto;
-    color: white;
-    border: 1px solid;
-    border-radius: 17px;
+	display: flex;
+	flex-direction: column;
+	height: 490px;
+	width: 650px;
+	margin: auto;
+	color: white;
+	border: 1px solid;
+	border-radius: 17px;
 }
 
 .formulario {
-    padding: 60px 60px 0px 60px;
-    align-content: center;
+	padding: 60px 60px 0px 60px;
+	align-content: center;
 }
 
 h2 {
-    margin: 0;
-    margin-bottom: 10px;
+	margin: 0;
+	margin-bottom: 10px;
 }
 
-.div_NA{
-    display: flex;
-    flex-direction: row;
-    gap: 45px;
+.div_NA {
+	display: flex;
+	flex-direction: row;
+	gap: 45px;
 }
 
-.NombreApellido, .Correo{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    line-height: 50px;
-    margin-bottom: 20px;
+.NombreApellido,
+.Correo {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	line-height: 50px;
+	margin-bottom: 20px;
 }
 
 .input {
-    justify-content: center;
-    background: transparent;
-    border-style: initial;
-    border-bottom: solid 2px white;
-    width: 227px;
-    outline: none;
-    color: white;
+	justify-content: center;
+	background: transparent;
+	border-style: initial;
+	border-bottom: solid 2px white;
+	width: 227px;
+	outline: none;
+	color: white;
 }
 
 .input-correo {
-    background: transparent;
-    border-style: initial;
-    border-bottom: solid 2px white;
-    width: 503px;
-    outline: none;
-    color: white;
+	background: transparent;
+	border-style: initial;
+	border-bottom: solid 2px white;
+	width: 503px;
+	outline: none;
+	color: white;
 }
 
-
 textarea {
-    background: transparent;
-    border: none;
-    border-bottom: solid 2px white;
-    width: 503px;
-    padding: 5px;
-    resize: none;
-    overflow: hidden;
-    height: 70px;
-    line-height: 20px;
-    margin-bottom: 38px;
-    outline: none;
-    color: white;
+	background: transparent;
+	border: none;
+	border-bottom: solid 2px white;
+	width: 503px;
+	padding: 5px;
+	resize: none;
+	overflow: hidden;
+	height: 70px;
+	line-height: 20px;
+	margin-bottom: 38px;
+	outline: none;
+	color: white;
+}
+
+#textoOculto {
+	display: none;
+}
+
+@media screen and (max-width: 680px) {
+	.div {
+		height: 490px;
+		width: 420px;
+		border: 1px solid;
+		border-radius: 17px;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.formulario {
+		padding: 0px;
+	}
+
+	.div_NA {
+		display: flex;
+		flex-direction: column;
+		gap: 0px;
+	}
+
+	.NombreApellido,
+	.Correo {
+		line-height: 30px;
+	}
+
+	.input {
+		width: 250px;
+	}
+
+	.input-correo {
+		width: 250px;
+	}
+
+	.Mensaje {
+		display: flex;
+		flex-direction: column;
+	}
+
+	textarea {
+		width: 250px;
+	}
+
+	#textoOculto {
+		position: absolute;
+		left: 275px;
+		bottom: 185px;
+	}
 }

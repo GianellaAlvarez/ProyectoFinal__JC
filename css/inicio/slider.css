@@ -1,214 +1,199 @@
 /*=============== GOOGLE FONTS ===============*/
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;900&display=swap");
 
 :root {
-    --header-height: 3.5rem;
+	--header-height: 3.5rem;
 }
 
 /*=============== VARIABLES CSS ===============*/
 
-body{
-  font-family: 'Poppins', sans-serif;
-  scroll-behavior: smooth;
-  overflow-x: hidden;
+body {
+	font-family: "Poppins", sans-serif;
+	scroll-behavior: smooth;
+	overflow-x: hidden;
 }
 
-ul{
-  list-style: none;
+ul {
+	list-style: none;
 }
 
-a{
-  text-decoration: none;
+a {
+	text-decoration: none;
 }
-
 
 /*=============== REUSABLE CSS CLASSES ===============*/
 
-.grid{
-  display: grid;
+.grid {
+	display: grid;
 }
 
-.main{
-  overflow: hidden; /*For animation*/
+.main {
+	overflow: hidden; /*For animation*/
 }
 
 /*=============== HOME ===============*/
 
 .home__data {
-    margin-right: 119px;
-
+	margin-right: 20px;
 }
 
-.home__content{
-  row-gap: 1rem;
+.home__content {
+	padding: 24px;
+	padding-top: 0;
 }
 
-.home__group{
-  display: grid;
-  position: relative;
-  padding-top: 2rem;
+.home__group {
+	display: grid;
+	position: relative;
 }
 
-.home__img{
-  height: 250px;
-  justify-self: center;
+.home__img {
+	height: 250px;
+	justify-self: center;
 }
 
-.home__indicator{
-  width: 8px;
-  height: 8px;
-  background-color: white;
-  border-radius: 50%;
-  position: absolute;
-  top: 7rem;
-  right: 2rem;
+.home__indicator {
+	width: 8px;
+	height: 8px;
+	background-color: white;
+	border-radius: 50%;
+	position: absolute;
+	top: 102px;
+	right: 2rem;
 }
 
-.home__indicator::after{
-  content: '';
-  position: absolute;
-  width: 1px;
-  height: 48px;
-  background-color: white;
-  top: -3rem;
-  right: 45%;
+.home__indicator::after {
+	content: "";
+	position: absolute;
+	width: 1px;
+	height: 24px;
+	background-color: white;
+	top: -22px;
+	right: 45%;
 }
 
-.home__details-img{
-  position: absolute;
-  right: .5rem;
+.home__details-img {
+	position: absolute;
+	right: 0.5rem;
 }
 
 .home__details-title,
-.home__details-subtitle{
-    display: block;
-    font-size: 15px;
-    text-align: right;
-    margin: 8px;
+.home__details-subtitle {
+	display: block;
+	font-size: 12px;
+	text-align: right;
+	margin: 8px;
 }
 
-.home__subtitle{
-  font-size: 20px;
-  text-transform: uppercase;
-  margin-bottom: 5px;
+.home__subtitle {
+	font-size: 17px;
+	text-transform: uppercase;
+	margin-bottom: 5px;
 }
 
-.home__title{
-  font-size: 50px;
-  line-height: 109%;
-  margin-bottom: 10px;
+.home__title {
+	font-size: 20px;
+	line-height: 109%;
+	margin-bottom: 10px;
 }
 
-.home__description{
-  margin-bottom: 10px;
+.home__description {
+	margin-bottom: 10px;
 }
 
-.home__buttons{
-  display: flex;
-  justify-content: space-between;
+.home__buttons {
+	display: flex;
+	justify-content: space-between;
 }
 
 /* Swiper Class */
-.swiper-pagination{
-    position: initial;
-    margin-top: -10px;
-  }
-  
-  .swiper-pagination-bullet{
-    width: 5px;
-    height: 5px;
-    background-color: white;
-    opacity: 1;
-  }
-  
-  .swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet{
-    margin: 0 .5rem;
-  } 
-  
-  .swiper-pagination-bullet-active{
-    width: 1.5rem;
-    height: 5px;
-    border-radius: .5rem;
-  }
+.swiper-pagination {
+	position: initial;
+	margin-top: -10px;
+}
+
+.swiper-pagination-bullet {
+	width: 5px;
+	height: 5px;
+	background-color: white;
+	opacity: 1;
+}
+
+.swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet {
+	margin: 0 0.5rem;
+}
+
+.swiper-pagination-bullet-active {
+	width: 1.5rem;
+	height: 5px;
+	border-radius: 0.5rem;
+}
 
 /*=============== BUTTONS ===============*/
-.button{
-  display: inline-block;
-  background-color: #15ffe47c;
-  color: white;
-  padding: 1rem 1.75rem;
-  border-radius: .5rem;
-  transition: .3s;
+.button {
+	display: inline-block;
+	background-color: #15ffe47c;
+	color: white;
+	padding: 1rem 1.75rem;
+	border-radius: 0.5rem;
+	transition: 0.3s;
 }
 
 .button:hover {
-    background: transparent;
-    border: 1px solid white;
-    border-radius: 15px;
+	background: transparent;
+	border: 1px solid white;
+	border-radius: 15px;
 }
 
-.button--link{
-  color: white;
+.button--link {
+	color: white;
 }
 
-.button--flex{
-  display: inline-flex;
-  align-items: center;
-  column-gap: .5rem;
+.button--flex {
+	display: inline-flex;
+	align-items: center;
+	column-gap: 0.5rem;
 }
-
-/*=============== SCROLL BAR ===============*/
-::-webkit-scrollbar{
-    width: 0.6rem;
-    background: #413e3e;
-  }
-  
-  ::-webkit-scrollbar-thumb{
-    background: #272525;
-    border-radius: .5rem;
-  }
-
 
 /* For medium devices */
 
-
-@media screen and (min-width: 767px){
-
-.home__content{
-    padding: 8rem 0 2rem;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 4rem;
-    }
+@media screen and (min-width: 767px) {
+	.home__content {
+		padding: 8rem 0 2rem;
+		grid-template-columns: repeat(2, 1fr);
+		gap: 4rem;
+		padding: 24px;
+	}
 }
 
 /* For large devices */
-@media screen and (min-width: 992px){
-  .home__content{
-    padding-top: 45px;
-    gap: 3rem;
-  }
-  .home__group{
-    padding-top: 0;
-}
-  .home__img{
-    height: 300px;
-  }
+@media screen and (min-width: 992px) {
+	.home__content {
+		padding-top: 45px;
+		gap: 3rem;
+	}
+	.home__group {
+		padding-top: 0;
+	}
+	.home__img {
+		height: 300px;
+	}
 
-  .logo {
-    height: 450px;
-  }
-  .home__indicator{
-    top: initial;
-    right: initial;
-    bottom: 12%;
-    left: 62%;
-  }
-  .home__indicator::after{
-    top: 0;
-    height: 75px;
-  }
-  .home__details-img{
-    bottom: -21px;
-    right: 40%;
-  }
+	.logo {
+		height: 450px;
+	}
+	.home__indicator {
+		top: initial;
+		right: initial;
+		bottom: 12%;
+		left: 62%;
+	}
+	.home__indicator::after {
+		top: 0;
+		height: 75px;
+	}
+	.home__details-img {
+		bottom: -21px;
+		right: 40%;
+	}
 }

@@ -1,34 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css" />
-  <link rel="icon" href="./img/Favicon.png" type="image/x-icon"/>
-  <link rel="stylesheet" href="./css/encabezado.css">
-</head>
-<body>
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css" />
+		<link rel="icon" href="./img/Favicon.png" type="image/x-icon" />
+		<link rel="stylesheet" href="./css/encabezado.css" />
+	</head>
+	<body>
+		<header class="encabezado nav">
+			<div class="encabezado__div">
+				<h1 class="encabezado__titulo">FitEssence</h1>
+			</div>
+			<nav class="encabezado__nav nav__menu encabezado__nav__link" id="nav-menu">
+				<a href="./index.html" class="encabezado__nav__link active-link">Inicio</a>
+				<a href="./tienda.html" class="encabezado__nav__link">Tienda</a>
+				<a href="./contacto.html" class="encabezado__nav__link">Contacto</a>
+				<a href="./registro.html" class="encabezado__nav__link entrar">Registrarse</a>
+				<!--<a href="#" id="logout" class="encabezado__nav__link entrar">Cerrar</a> --->
 
-  <header class="encabezado">
-    <div class="encabezado__div">
-      <h1 class="encabezado__titulo">FitEssence</h1>
-    </div>
-    <nav class="encabezado__nav">
-      <a href="./index.html" class="encabezado__nav__link">Inicio</a>
-      <a href="./tienda.html" class="encabezado__nav__link">Tienda</a>
-      <a href="./contacto.html" target="_BLANK" class="encabezado__nav__link">Contacto</a>
-      <a href="./registro.html" class="encabezado__nav__link entrar">Registrarse</a>
-      <!--<a href="#" id="logout" class="encabezado__nav__link entrar">Cerrar</a> --->
-    </nav>
-  </header>
-  
-</body>
+				<div class="nav__cerrar" id="nav-cerrar">
+					<i class="bx bx-x"></i>
+				</div>
+			</nav>
+
+			<div class="nav__desplegable" id="nav-desplegable">
+				<i class="bx bx-grid-alt"></i>
+			</div>
+		</header>
+
+		<script src="./js/navResponsive.js"></script>
+	</body>
 </html>
-
-
-
-
-
-
-

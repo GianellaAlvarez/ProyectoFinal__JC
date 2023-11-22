@@ -1,64 +1,119 @@
 /* styles.css */
 .menu {
-    width: 230px;
-    color: black;
-    position: fixed;
-    height: 100%;
-    overflow: auto;
-    top: 112px;
-    color: white;
-    display: flex;
-    flex-direction: column;
-    gap: 40px;
-    
+	color: black;
+	position: fixed;
+	height: 100%;
+	overflow: auto;
+	top: 112px;
+	color: white;
+	display: flex;
+	flex-direction: column;
+	gap: 40px;
 }
 
 .menu ul {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
 }
 
 .menu li {
-    padding: 10px;
-    color: black;
-    border-bottom: 2px solid;
-    font-size: 20px;
+	padding: 10px;
+	color: black;
+	border-bottom: 2px solid;
+	font-size: 20px;
 
-    /*background-color: rgb(105, 255, 228);
+	/*background-color: rgb(105, 255, 228);
     background-color: #39ffe599;*/
-
 }
 
 .menu a {
-    text-decoration: none;
-    color: black;
-    height: 40px;
-    line-height: 10px;
-    color: white;
-
-}
-
-.contenido {
-    margin-left: 220px;
-    padding: 94px 85px 21px 25px;
-
+	text-decoration: none;
+	color: black;
+	height: 40px;
+	line-height: 10px;
+	color: white;
 }
 
 .filtro {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }
 
 .filtroPrecio {
-    width: 90px;
-    overflow: hidden;
+	width: 90px;
+	overflow: hidden;
+}
+
+/* Estilos para la barra lateral */
+.sidebar {
+	position: fixed;
+	top: 0;
+	left: -250px; /* Inicialmente oculto hacia la izquierda */
+	width: 250px;
+	height: 100%;
+	background-color: #333;
+	transition: left 0.3s ease; /* Agrega una transición suave al cambiar la posición */
 }
 
 .filtroPrecio::-webkit-inner-spin-button,
 .filtroPrecio::-webkit-outer-spin-button {
-  -webkit-appearance: none; /* WebKit */
-  margin: 0; /* Eliminar el margen por defecto */
+	-webkit-appearance: none; /* WebKit */
+	margin: 0; /* Eliminar el margen por defecto */
+}
+
+.nav__link,
+.nav__logo,
+.desplegable,
+.cerrar {
+	color: white;
+}
+
+.desplegable {
+	margin-left: 22px;
+	font-size: 25px;
+	cursor: pointer;
+}
+
+@media screen and (max-width: 767px) {
+	.menuOculto {
+		position: fixed;
+		width: 50%;
+		background: black;
+		left: -150%;
+		padding: 3.5rem 0;
+		transition: 0.4s;
+		z-index: 1;
+		border-radius: 0 0 1.5rem 1.5rem;
+	}
+}
+
+.cerrar {
+	font-size: 1.8rem;
+	position: absolute;
+	top: 0.5rem;
+	right: 0.7rem;
+	cursor: pointer;
+}
+
+@media screen and (min-width: 767px) {
+	.nav {
+		height: calc(var(--header-height) + 1.5rem);
+	}
+	.cerrar,
+	.desplegable {
+		display: none;
+	}
+}
+
+.show--menu {
+	left: 0;
+	top: 105px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background: black;
+	height: 280px;
+	justify-content: center;
 }

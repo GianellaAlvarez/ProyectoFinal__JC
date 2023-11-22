@@ -1,387 +1,388 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tienda</title>
-    <link rel="stylesheet" href="./css/tienda/tienda.css">
-    
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Tienda</title>
+		<link rel="stylesheet" href="./css/tienda/tienda.css" />
+		<link rel="icon" href="./img/Favicon.png" type="image/x-icon" />
 
-</head>
-<body>
+	</head>
+	<body>
+		<div class="body">
+			<div id="menu"></div>
 
-    <div class="body">
+			<div class="menu">
+				<div class="desplegable" id="desplegable">
+					<i class="bx bx-slider"></i>
+				</div>
 
-        <div id="menu"></div>
-    
-        <div class="menu">
-            <div class="filtro">
-                <h3>Filtrar por precio</h3>
-                <section>
-                    <input type="number" name="" placeholder="Desde" id="" class="filtroPrecio">
-                    <input type="number" name="" placeholder="Hasta" id="" class="filtroPrecio">
-                </section>
+				<div class="menuOculto nav__link" id="menuOculto">
+					<div class="filtro">
+						<h3>Filtrar por precio</h3>
+						<section>
+							<input type="number" name="" placeholder="Desde" id="" class="filtroPrecio" />
+							<input type="number" name="" placeholder="Hasta" id="" class="filtroPrecio" />
+						</section>
+					</div>
+					<ul>
+						<li><a href="#" id="opcion1">Pre Entreno</a></li>
+						<li><a href="#" id="opcion2">Creatinas</a></li>
+						<li><a href="#" id="opcion3">Proteínas</a></li>
+						<li><a href="#" id="opcion4">Ganadores de Masa</a></li>
+						<li><a href="#" id="opcion5">Quemadores</a></li>
+					</ul>
+					<div class="cerrar" id="cerrar">
+						<i class="bx bx-x"></i>
+					</div>
+				</div>
+			</div>
+			<div class="contenido">
+				<h3 class="titulo">Suplementos</h3>
+				<div id="info1" class="productos">
+					<div class="producto">
+						<img src="./img/preEntreno1.png" alt="" class="imgProducto" />
+						<p class="tipo">PRE ENTRENO</p>
+						<h4>C4 Original 60 Servicios</h4>
+						<p>$ 149.900</p>
+						<section class="carrito">
+							<input type="number" name="" id="" value="1" />
+							<a href="#"><button>AGREGAR AL CARRITO</button></a>
+						</section>
+					</div>
 
-            </div>
-            <ul>
-                <li><a href="#" id="opcion1">Pre Entreno</a></li>
-                <li><a href="#" id="opcion2">Creatinas</a></li>
-                <li><a href="#" id="opcion3">Proteínas</a></li>
-                <li><a href="#" id="opcion4">Ganadores de Masa</a></li>
-                <li><a href="#" id="opcion5">Quemadores</a></li>
-    
-            </ul>
-        </div>
-        <div class="contenido">
-            <h3 class="titulo">Suplementos</h3>
-            <div id="info1" class="productos">
-                <div class="producto">
-                    <img src="./img/preEntreno1.png" alt="" class="imgProducto">
-                    <p class="tipo">PRE ENTRENO</p>
-                    <h4>C4 Original 60 Servicios</h4>
-                    <p>$ 149.900</p>
-                    <section class="carrito">
-                        <input type="number" name="" id="" value="1">
-                        <a href="#"><button>AGREGAR AL CARRITO</button></a>
-                    </section>
-                </div>
+					<div class="producto">
+						<img src="./img/preEntreno2.png" alt="" class="imgProducto" />
+						<p class="tipo">PRE ENTRENO</p>
+						<h4>Intenze Preworkout</h4>
+						<p>$ 149.900</p>
+						<section class="carrito">
+							<input type="number" name="" id="" value="1" />
+							<a href="#"><button>AGREGAR AL CARRITO</button></a>
+						</section>
+					</div>
 
-                <div class="producto">
-                    <img src="./img/preEntreno2.png" alt="" class="imgProducto">
-                    <p class="tipo">PRE ENTRENO</p>
-                    <h4>Intenze Preworkout</h4>
-                    <p>$ 149.900</p>
-                    <section class="carrito">
-                        <input type="number" name="" id="" value="1">
-                        <a href="#"><button>AGREGAR AL CARRITO</button></a>
-                    </section>
-                </div>
+					<div class="producto">
+						<img src="./img/preEntreno3.png" alt="" class="imgProducto" />
+						<p class="tipo">PRE ENTRENO</p>
+						<h4>Psychotic Gold 35 servicios</h4>
+						<p>$ 149.900</p>
+						<section class="carrito">
+							<input type="number" name="" id="" value="1" />
+							<a href="#"><button>AGREGAR AL CARRITO</button></a>
+						</section>
+					</div>
 
-                <div class="producto">
-                    <img src="./img/preEntreno3.png" alt="" class="imgProducto">
-                    <p class="tipo">PRE ENTRENO</p>
-                    <h4>Psychotic Gold 35 servicios</h4>
-                    <p>$ 149.900</p>
-                    <section class="carrito">
-                        <input type="number" name="" id="" value="1">
-                        <a href="#"><button>AGREGAR AL CARRITO</button></a>
-                    </section>
-                </div>
+					<div class="producto">
+						<img src="https://suplementos.b-cdn.net/pre-entrenos/convict-red-raspberry-500x500.webp" alt="" class="imgProducto" />
+						<p class="tipo">PRE ENTRENO</p>
+						<h4>Convict</h4>
+						<p>$ 144.900</p>
+						<section class="carrito">
+							<input type="number" name="" id="" value="1" />
+							<a href="#"><button>AGREGAR AL CARRITO</button></a>
+						</section>
+					</div>
 
-                <div class="producto">
-                    <img src="https://suplementos.b-cdn.net/pre-entrenos/convict-red-raspberry-500x500.webp" alt="" class="imgProducto">
-                    <p class="tipo">PRE ENTRENO</p>
-                    <h4>Convict</h4>
-                    <p>$ 144.900</p>
-                    <section class="carrito">
-                        <input type="number" name="" id="" value="1">
-                        <a href="#"><button>AGREGAR AL CARRITO</button></a>
-                    </section>
-                </div>
+					<div class="producto">
+						<img src="./img/preEntreno5.png" alt="" class="imgProducto" />
+						<p class="tipo">PRE ENTRENO</p>
+						<h4>The Curse</h4>
+						<p>$ 139.900</p>
+						<section class="carrito">
+							<input type="number" name="" id="" value="1" />
+							<a href="#"><button>AGREGAR AL CARRITO</button></a>
+						</section>
+					</div>
 
-                <div class="producto">
-                    <img src="./img/preEntreno5.png" alt="" class="imgProducto">
-                    <p class="tipo">PRE ENTRENO</p>
-                    <h4>The Curse</h4>
-                    <p>$ 139.900</p>
-                    <section class="carrito">
-                        <input type="number" name="" id="" value="1">
-                        <a href="#"><button>AGREGAR AL CARRITO</button></a>
-                    </section>
-                </div>
+					<div class="producto">
+						<img src="./img/preEntreno6.png" alt="" class="imgProducto" />
+						<p class="tipo">PRE ENTRENO</p>
+						<h4>Psychotic Black 35 servicios</h4>
+						<p>$ 129.900</p>
+						<section class="carrito">
+							<input type="number" name="" id="" value="1" />
+							<a href="#"><button>AGREGAR AL CARRITO</button></a>
+						</section>
+					</div>
+				</div>
+				<div id="info2" class="productos">
+					<div class="producto">
+						<img src="./img/creatina1.png" alt="" class="imgProducto" />
+						<p class="tipo">CREATINAS</p>
+						<h4>Creatina Platinum 80 servicios</h4>
+						<p>$ 140.000</p>
+						<section class="carrito">
+							<input type="number" name="" id="" value="1" />
+							<a href="#"><button>AGREGAR AL CARRITO</button></a>
+						</section>
+					</div>
 
-                <div class="producto">
-                    <img src="./img/preEntreno6.png" alt="" class="imgProducto">
-                    <p class="tipo">PRE ENTRENO</p>
-                    <h4>Psychotic Black 35 servicios</h4>
-                    <p>$ 129.900</p>
-                    <section class="carrito">
-                        <input type="number" name="" id="" value="1">
-                        <a href="#"><button>AGREGAR AL CARRITO</button></a>
-                    </section>
-                </div>
-    
-            </div>
-            <div id="info2" class="productos">
-                <div class="producto">
-                    <img src="./img/creatina1.png" alt="" class="imgProducto">
-                    <p class="tipo">CREATINAS</p>
-                    <h4>Creatina Platinum 80 servicios</h4>
-                    <p>$ 140.000</p>
-                    <section class="carrito">
-                        <input type="number" name="" id="" value="1">
-                        <a href="#"><button>AGREGAR AL CARRITO</button></a>
-                    </section>
-                </div>
+					<div class="producto">
+						<img src="https://suplementos.b-cdn.net/creatinas/creatina-iron-nutrition-500x500.webp" alt="" class="imgProducto" />
+						<p class="tipo">CREATINAS</p>
+						<h4>Creatina Iron Nutrition</h4>
+						<p>$ 85.000</p>
+						<section class="carrito">
+							<input type="number" name="" id="" value="1" />
+							<a href="#"><button>AGREGAR AL CARRITO</button></a>
+						</section>
+					</div>
 
-                <div class="producto">
-                    <img src="https://suplementos.b-cdn.net/creatinas/creatina-iron-nutrition-500x500.webp" alt="" class="imgProducto">
-                    <p class="tipo">CREATINAS</p>
-                    <h4>Creatina Iron Nutrition</h4>
-                    <p>$ 85.000</p>
-                    <section class="carrito">
-                        <input type="number" name="" id="" value="1">
-                        <a href="#"><button>AGREGAR AL CARRITO</button></a>
-                    </section>
-                </div>
+					<div class="producto">
+						<img src="https://nutramerican.com/api_MegaplexStar/assets/productos3dwebp/102060/big.webp" alt="" class="imgProducto" />
+						<p class="tipo">CREATINAS</p>
+						<h4>Creatina Crea Stack</h4>
+						<p>$ 135.900</p>
+						<section class="carrito">
+							<input type="number" name="" id="" value="1" />
+							<a href="#"><button>AGREGAR AL CARRITO</button></a>
+						</section>
+					</div>
 
-                <div class="producto">
-                    <img src="https://nutramerican.com/api_MegaplexStar/assets/productos3dwebp/102060/big.webp" alt="" class="imgProducto">
-                    <p class="tipo">CREATINAS</p>
-                    <h4>Creatina Crea Stack</h4>
-                    <p>$ 135.900</p>
-                    <section class="carrito">
-                        <input type="number" name="" id="" value="1">
-                        <a href="#"><button>AGREGAR AL CARRITO</button></a>
-                    </section>
-                </div>
+					<div class="producto">
+						<img src="./img/creatina4.png" alt="" class="imgProducto" />
+						<p class="tipo">CREATINAS</p>
+						<h4>Creatina Micronizada ON 60</h4>
+						<p>$ 124.900</p>
+						<section class="carrito">
+							<input type="number" name="" id="" value="1" />
+							<a href="#"><button>AGREGAR AL CARRITO</button></a>
+						</section>
+					</div>
 
-                <div class="producto">
-                    <img src="./img/creatina4.png" alt="" class="imgProducto">
-                    <p class="tipo">CREATINAS</p>
-                    <h4>Creatina Micronizada ON 60</h4>
-                    <p>$ 124.900</p>
-                    <section class="carrito">
-                        <input type="number" name="" id="" value="1">
-                        <a href="#"><button>AGREGAR AL CARRITO</button></a>
-                    </section>
-                </div>
+					<div class="producto">
+						<img src="https://suplementosnucleo.com.co/wp-content/uploads/2020/02/legacy.png" alt="" class="imgProducto" />
+						<p class="tipo">CREATINAS</p>
+						<h4>Legacy 50 Servicios</h4>
+						<p>$ 109.900</p>
+						<section class="carrito">
+							<input type="number" name="" id="" value="1" />
+							<a href="#"><button>AGREGAR AL CARRITO</button></a>
+						</section>
+					</div>
 
-                <div class="producto">
-                    <img src="https://suplementosnucleo.com.co/wp-content/uploads/2020/02/legacy.png" alt="" class="imgProducto">
-                    <p class="tipo">CREATINAS</p>
-                    <h4>Legacy 50 Servicios</h4>
-                    <p>$ 109.900</p>
-                    <section class="carrito">
-                        <input type="number" name="" id="" value="1">
-                        <a href="#"><button>AGREGAR AL CARRITO</button></a>
-                    </section>
-                </div>
+					<div class="producto">
+						<img src="./img/creatina6.png" alt="" class="imgProducto" />
+						<p class="tipo">CREATINAS</p>
+						<h4>Cell Tech 3 libras</h4>
+						<p>$ 149.900</p>
+						<section class="carrito">
+							<input type="number" name="" id="" value="1" />
+							<a href="#"><button>AGREGAR AL CARRITO</button></a>
+						</section>
+					</div>
+				</div>
+				<div id="info3" class="productos">
+					<div class="producto">
+						<img src="./img/proteina1.png" alt="" class="imgProducto" />
+						<p class="tipo">PROTEÍNAS</p>
+						<h4>Dymatize ISO 100 5 Libras</h4>
+						<p>$ 384.900</p>
+						<section class="carrito">
+							<input type="number" name="" id="" value="1" />
+							<a href="#"><button>AGREGAR AL CARRITO</button></a>
+						</section>
+					</div>
 
-                <div class="producto">
-                    <img src="./img/creatina6.png" alt="" class="imgProducto">
-                    <p class="tipo">CREATINAS</p>
-                    <h4>Cell Tech 3 libras</h4>
-                    <p>$ 149.900</p>
-                    <section class="carrito">
-                        <input type="number" name="" id="" value="1">
-                        <a href="#"><button>AGREGAR AL CARRITO</button></a>
-                    </section>
-                </div>
-    
-            </div>
-            <div id="info3" class="productos">
-                <div class="producto">
-                    <img src="./img/proteina1.png" alt="" class="imgProducto">
-                    <p class="tipo">PROTEÍNAS</p>
-                    <h4>Dymatize ISO 100 5 Libras</h4>
-                    <p>$ 384.900</p>
-                    <section class="carrito">
-                        <input type="number" name="" id="" value="1">
-                        <a href="#"><button>AGREGAR AL CARRITO</button></a>
-                    </section>
-                </div>
+					<div class="producto">
+						<img src="./img/proteina2.png" alt="" class="imgProducto" />
+						<p class="tipo">MUSCLETECH</p>
+						<h4>Nitro Tech Whey Gold</h4>
+						<p>$ 110.000</p>
+						<section class="carrito">
+							<input type="number" name="" id="" value="1" />
+							<a href="#"><button>AGREGAR AL CARRITO</button></a>
+						</section>
+					</div>
 
-                <div class="producto">
-                    <img src="./img/proteina2.png" alt="" class="imgProducto">
-                    <p class="tipo">MUSCLETECH</p>
-                    <h4>Nitro Tech Whey Gold</h4>
-                    <p>$ 110.000</p>
-                    <section class="carrito">
-                        <input type="number" name="" id="" value="1">
-                        <a href="#"><button>AGREGAR AL CARRITO</button></a>
-                    </section>
-                </div>
+					<div class="producto">
+						<img src="./img/proteina3.png" alt="" class="imgProducto" />
+						<p class="tipo">OPTIMUM NUTRITION</p>
+						<h4>100% Whey Gold Standard 5 Libras</h4>
+						<p>$ 314.900</p>
+						<section class="carrito">
+							<input type="number" name="" id="" value="1" />
+							<a href="#"><button>AGREGAR AL CARRITO</button></a>
+						</section>
+					</div>
 
-                <div class="producto">
-                    <img src="./img/proteina3.png" alt="" class="imgProducto">
-                    <p class="tipo">OPTIMUM NUTRITION</p>
-                    <h4>100% Whey Gold Standard 5 Libras</h4>
-                    <p>$ 314.900</p>
-                    <section class="carrito">
-                        <input type="number" name="" id="" value="1">
-                        <a href="#"><button>AGREGAR AL CARRITO</button></a>
-                    </section>
-                </div>
+					<div class="producto">
+						<img src="./img/proteina4.png" alt="" class="imgProducto" />
+						<p class="tipo">PROTEÍNAS</p>
+						<h4>Bi-Pro Classic 3 libras</h4>
+						<p>$ 209.900</p>
+						<section class="carrito">
+							<input type="number" name="" id="" value="1" />
+							<a href="#"><button>AGREGAR AL CARRITO</button></a>
+						</section>
+					</div>
 
-                <div class="producto">
-                    <img src="./img/proteina4.png" alt="" class="imgProducto">
-                    <p class="tipo">PROTEÍNAS</p>
-                    <h4>Bi-Pro Classic 3 libras</h4>
-                    <p>$ 209.900</p>
-                    <section class="carrito">
-                        <input type="number" name="" id="" value="1">
-                        <a href="#"><button>AGREGAR AL CARRITO</button></a>
-                    </section>
-                </div>
+					<div class="producto">
+						<img src="./img/proteina5.png" alt="" class="imgProducto" />
+						<p class="tipo">PROTEÍNAS</p>
+						<h4>Best Protein 4 Libras</h4>
+						<p>$ 369.900</p>
+						<section class="carrito">
+							<input type="number" name="" id="" value="1" />
+							<a href="#"><button>AGREGAR AL CARRITO</button></a>
+						</section>
+					</div>
 
-                <div class="producto">
-                    <img src="./img/proteina5.png" alt="" class="imgProducto">
-                    <p class="tipo">PROTEÍNAS</p>
-                    <h4>Best Protein 4 Libras</h4>
-                    <p>$ 369.900</p>
-                    <section class="carrito">
-                        <input type="number" name="" id="" value="1">
-                        <a href="#"><button>AGREGAR AL CARRITO</button></a>
-                    </section>
-                </div>
+					<div class="producto">
+						<img src="./img/proteina6.png" alt="" class="imgProducto" />
+						<p class="tipo">PROTEÍNAS</p>
+						<h4>Best Whey 2 libras</h4>
+						<p>$ 148.900</p>
+						<section class="carrito">
+							<input type="number" name="" id="" value="1" />
+							<a href="#"><button>AGREGAR AL CARRITO</button></a>
+						</section>
+					</div>
+				</div>
+				<div id="info4" class="productos">
+					<div class="producto">
+						<img src="./img/masa1.png" alt="" class="imgProducto" />
+						<p class="tipo">GANADORES DE MASA</p>
+						<h4>Mass Tech Extreme 2000 6 Libras</h4>
+						<p>$ 219.900</p>
+						<section class="carrito">
+							<input type="number" name="" id="" value="1" />
+							<a href="#"><button>AGREGAR AL CARRITO</button></a>
+						</section>
+					</div>
 
-                <div class="producto">
-                    <img src="./img/proteina6.png" alt="" class="imgProducto">
-                    <p class="tipo">PROTEÍNAS</p>
-                    <h4>Best Whey 2 libras</h4>
-                    <p>$ 148.900</p>
-                    <section class="carrito">
-                        <input type="number" name="" id="" value="1">
-                        <a href="#"><button>AGREGAR AL CARRITO</button></a>
-                    </section>
-                </div>
-    
-            </div>
-            <div id="info4" class="productos">
-                <div class="producto">
-                    <img src="./img/masa1.png" alt="" class="imgProducto">
-                    <p class="tipo">GANADORES DE MASA</p>
-                    <h4>Mass Tech Extreme 2000 6 Libras</h4>
-                    <p>$ 219.900</p>
-                    <section class="carrito">
-                        <input type="number" name="" id="" value="1">
-                        <a href="#"><button>AGREGAR AL CARRITO</button></a>
-                    </section>
-                </div>
+					<div class="producto">
+						<img src="./img/masa2.png" alt="" class="imgProducto" />
+						<p class="tipo">GANADORES DE MASA</p>
+						<h4>Carnivor Mass 6 libras</h4>
+						<p>$ 239.900</p>
+						<section class="carrito">
+							<input type="number" name="" id="" value="1" />
+							<a href="#"><button>AGREGAR AL CARRITO</button></a>
+						</section>
+					</div>
 
-                <div class="producto">
-                    <img src="./img/masa2.png" alt="" class="imgProducto">
-                    <p class="tipo">GANADORES DE MASA</p>
-                    <h4>Carnivor Mass 6 libras</h4>
-                    <p>$ 239.900</p>
-                    <section class="carrito">
-                        <input type="number" name="" id="" value="1">
-                        <a href="#"><button>AGREGAR AL CARRITO</button></a>
-                    </section>
-                </div>
+					<div class="producto">
+						<img src="./img/masa3.png" alt="" class="imgProducto" />
+						<p class="tipo">PROSCIENCE</p>
+						<h4>Smart Gainer 13 Libras</h4>
+						<p>$ 254.900</p>
+						<section class="carrito">
+							<input type="number" name="" id="" value="1" />
+							<a href="#"><button>AGREGAR AL CARRITO</button></a>
+						</section>
+					</div>
 
-                <div class="producto">
-                    <img src="./img/masa3.png" alt="" class="imgProducto">
-                    <p class="tipo">PROSCIENCE</p>
-                    <h4>Smart Gainer 13 Libras</h4>
-                    <p>$ 254.900</p>
-                    <section class="carrito">
-                        <input type="number" name="" id="" value="1">
-                        <a href="#"><button>AGREGAR AL CARRITO</button></a>
-                    </section>
-                </div>
+					<div class="producto">
+						<img src="https://suplementos.b-cdn.net/proteinas/mass-gainer-simply-13lbs-vainilla-500x500.webp" alt="" class="imgProducto" />
+						<p class="tipo">GANADORES DE MASA</p>
+						<h4>Simply Mass Gainer 13 libras</h4>
+						<p>$ 249.900</p>
+						<section class="carrito">
+							<input type="number" name="" id="" value="1" />
+							<a href="#"><button>AGREGAR AL CARRITO</button></a>
+						</section>
+					</div>
 
-                <div class="producto">
-                    <img src="https://suplementos.b-cdn.net/proteinas/mass-gainer-simply-13lbs-vainilla-500x500.webp" alt="" class="imgProducto">
-                    <p class="tipo">GANADORES DE MASA</p>
-                    <h4>Simply Mass Gainer 13 libras</h4>
-                    <p>$ 249.900</p>
-                    <section class="carrito">
-                        <input type="number" name="" id="" value="1">
-                        <a href="#"><button>AGREGAR AL CARRITO</button></a>
-                    </section>
-                </div>
+					<div class="producto">
+						<img src="./img/masa5.png" alt="" class="imgProducto" />
+						<p class="tipo">CREATINAS</p>
+						<h4>Megaplex Creatine Power 2 libras</h4>
+						<p>$ 53.900</p>
+						<section class="carrito">
+							<input type="number" name="" id="" value="1" />
+							<a href="#"><button>AGREGAR AL CARRITO</button></a>
+						</section>
+					</div>
 
-                <div class="producto">
-                    <img src="./img/masa5.png" alt="" class="imgProducto">
-                    <p class="tipo">CREATINAS</p>
-                    <h4>Megaplex Creatine Power 2 libras</h4>
-                    <p>$ 53.900</p>
-                    <section class="carrito">
-                        <input type="number" name="" id="" value="1">
-                        <a href="#"><button>AGREGAR AL CARRITO</button></a>
-                    </section>
-                </div>
+					<div class="producto">
+						<img src="./img/masa6.png" alt="" class="imgProducto" />
+						<p class="tipo">PROSCIENCE</p>
+						<h4>Smart Gainer 3 Libras</h4>
+						<p>$ 84.900</p>
+						<section class="carrito">
+							<input type="number" name="" id="" value="1" />
+							<a href="#"><button>AGREGAR AL CARRITO</button></a>
+						</section>
+					</div>
+				</div>
+				<div id="info5" class="productos">
+					<div class="producto">
+						<img src="./img/quemadores1.png" alt="" class="imgProducto" />
+						<p class="tipo">QUEMADORES</p>
+						<h4>Hydroxycut Elite</h4>
+						<p>$ 88.000</p>
+						<section class="carrito">
+							<input type="number" name="" id="" value="1" />
+							<a href="#"><button>AGREGAR AL CARRITO</button></a>
+						</section>
+					</div>
 
-                <div class="producto">
-                    <img src="./img/masa6.png" alt="" class="imgProducto">
-                    <p class="tipo">PROSCIENCE</p>
-                    <h4>Smart Gainer 3 Libras</h4>
-                    <p>$ 84.900</p>
-                    <section class="carrito">
-                        <input type="number" name="" id="" value="1">
-                        <a href="#"><button>AGREGAR AL CARRITO</button></a>
-                    </section>
-                </div>
-    
-            </div>
-            <div id="info5" class="productos">
-                <div class="producto">
-                    <img src="./img/quemadores1.png" alt="" class="imgProducto">
-                    <p class="tipo">QUEMADORES</p>
-                    <h4>Hydroxycut Elite</h4>
-                    <p>$ 88.000</p>
-                    <section class="carrito">
-                        <input type="number" name="" id="" value="1">
-                        <a href="#"><button>AGREGAR AL CARRITO</button></a>
-                    </section>
-                </div>
+					<div class="producto">
+						<img src="./img/quemadores2.png" alt="" class="imgProducto" />
+						<p class="tipo">QUEMADORES</p>
+						<h4>Burner Stack</h4>
+						<p>$ 139.900</p>
+						<section class="carrito">
+							<input type="number" name="" id="" value="1" />
+							<a href="#"><button>AGREGAR AL CARRITO</button></a>
+						</section>
+					</div>
 
-                <div class="producto">
-                    <img src="./img/quemadores2.png" alt="" class="imgProducto">
-                    <p class="tipo">QUEMADORES</p>
-                    <h4>Burner Stack</h4>
-                    <p>$ 139.900</p>
-                    <section class="carrito">
-                        <input type="number" name="" id="" value="1">
-                        <a href="#"><button>AGREGAR AL CARRITO</button></a>
-                    </section>
-                </div>
+					<div class="producto">
+						<img src="https://suplementos.b-cdn.net/quemadores/seven-fit-mim-500x500.webp" alt="" class="imgProducto" />
+						<p class="tipo">QUEMADORES</p>
+						<h4>Seven Fit</h4>
+						<p>$ 99.900</p>
+						<section class="carrito">
+							<input type="number" name="" id="" value="1" />
+							<a href="#"><button>AGREGAR AL CARRITO</button></a>
+						</section>
+					</div>
 
-                <div class="producto">
-                    <img src="https://suplementos.b-cdn.net/quemadores/seven-fit-mim-500x500.webp" alt="" class="imgProducto">
-                    <p class="tipo">QUEMADORES</p>
-                    <h4>Seven Fit</h4>
-                    <p>$ 99.900</p>
-                    <section class="carrito">
-                        <input type="number" name="" id="" value="1">
-                        <a href="#"><button>AGREGAR AL CARRITO</button></a>
-                    </section>
-                </div>
+					<div class="producto">
+						<img src="https://storage.googleapis.com/seeri-products/product-groups/co/5ZmcddAYuikqZxcrk1Xi7/0004816lipocoreadvanced90cps-1686199503389.png" alt="" class="imgProducto" />
+						<p class="tipo">LIPOCORE ADVANCE</p>
+						<h4>Lipocore Advance</h4>
+						<p>$ 119.900</p>
+						<section class="carrito">
+							<input type="number" name="" id="" value="1" />
+							<a href="#"><button>AGREGAR AL CARRITO</button></a>
+						</section>
+					</div>
 
-                <div class="producto">
-                    <img src="https://storage.googleapis.com/seeri-products/product-groups/co/5ZmcddAYuikqZxcrk1Xi7/0004816lipocoreadvanced90cps-1686199503389.png" alt="" class="imgProducto">
-                    <p class="tipo">LIPOCORE ADVANCE</p>
-                    <h4>Lipocore Advance</h4>
-                    <p>$ 119.900</p>
-                    <section class="carrito">
-                        <input type="number" name="" id="" value="1">
-                        <a href="#"><button>AGREGAR AL CARRITO</button></a>
-                    </section>
-                </div>
+					<div class="producto">
+						<img src="https://www.proteina.co/wp-content/uploads/2020/01/lipo-6-black-uc-60-caps-nutrex.png" alt="" class="imgProducto" />
+						<p class="tipo">QUEMADORES</p>
+						<h4>Lipo 6 Black Ultra Concentrado</h4>
+						<p>$ 94.900</p>
+						<section class="carrito">
+							<input type="number" name="" id="" value="1" />
+							<a href="#"><button>AGREGAR AL CARRITO</button></a>
+						</section>
+					</div>
 
-                <div class="producto">
-                    <img src="https://www.proteina.co/wp-content/uploads/2020/01/lipo-6-black-uc-60-caps-nutrex.png" alt="" class="imgProducto">
-                    <p class="tipo">QUEMADORES</p>
-                    <h4>Lipo 6 Black Ultra Concentrado</h4>
-                    <p>$ 94.900</p>
-                    <section class="carrito">
-                        <input type="number" name="" id="" value="1">
-                        <a href="#"><button>AGREGAR AL CARRITO</button></a>
-                    </section>
-                </div>
+					<div class="producto">
+						<img src="https://suplementos.b-cdn.net/quemadores/l-carnitine-simply-3000-500x500.webp" alt="" class="imgProducto" />
+						<p class="tipo">QUEMADORES</p>
+						<h4>L-Carnitina Simply 3000</h4>
+						<p>$ 79.900</p>
+						<section class="carrito">
+							<input type="number" name="" id="" value="1" />
+							<a href="#"><button>AGREGAR AL CARRITO</button></a>
+						</section>
+					</div>
+				</div>
+			</div>
+		</div>
 
-                <div class="producto">
-                    <img src="https://suplementos.b-cdn.net/quemadores/l-carnitine-simply-3000-500x500.webp" alt="" class="imgProducto">
-                    <p class="tipo">QUEMADORES</p>
-                    <h4>L-Carnitina Simply 3000</h4>
-                    <p>$ 79.900</p>
-                    <section class="carrito">
-                        <input type="number" name="" id="" value="1">
-                        <a href="#"><button>AGREGAR AL CARRITO</button></a>
-                    </section>
-                </div>
-    
-            </div>
-        </div>
+		<div id="footer"></div>
 
-    </div>
-
-    <div id="footer"></div>
-    
-    <script src="./js/catTienda.js"></script>
-    <script src="./js/nav.js"></script>
-    <script src="./js/footer.js"></script>
-</body>
+		<script src="./js/catTienda.js"></script>
+		<script src="./js/footer.js"></script>
+		<script src="./js/nav.js"></script>
+		<script src="./js/navResponsive.js"></script>
+		<script src="./js/menuTienda.js"></script>
+	</body>
 </html>

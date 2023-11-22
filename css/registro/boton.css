@@ -1,16 +1,18 @@
-
-
 .Boton {
-    height: 40px;
-    width: 120px;
-    border-radius: 20px;
-    font-size: 18px;
-    background: transparent;
-    color: white;
-    border: 1px solid white;
+	height: 40px;
+	width: 120px;
+	border-radius: 20px;
+	font-size: 18px;
+	background: transparent;
+	color: white;
+	margin-left: 10px;
+}
+
+.Boton input {
+	border: 1px solid;
 }
 
 .Boton:hover {
-    cursor: pointer;
-    text-decoration: underline;
+	cursor: pointer;
+	text-decoration: underline;
 }

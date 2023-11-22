@@ -1,105 +1,158 @@
 .div {
-    display: flex;
-    flex-direction: column;
-    height: 450px;
-    width: 600px;
-    margin: auto;
-    color: white;
-    border: 1px solid white;
-    border-radius: 17px;
-
+	display: flex;
+	flex-direction: column;
+	height: 450px;
+	width: 600px;
+	margin: auto;
+	color: white;
+	border: 1px solid white;
+	border-radius: 17px;
 }
 
 .formulario {
-    padding: 40px 45px 0px 50px;
+	padding: 40px 45px 0px 50px;
 }
 
 h2 {
-    margin: 0;
-    margin-bottom: 25px;
+	margin: 0;
+	margin-bottom: 25px;
 }
 
-.div_NA{
-    display: flex;
-    flex-direction: row;
-    gap: 45px;
+.div_NA {
+	display: flex;
+	flex-direction: row;
+	gap: 45px;
 }
 
-.NombreApellido, .Correo, .Contraseña{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    line-height: 50px;
-    margin-bottom: 20px;
+.NombreApellido,
+.Correo,
+.Contraseña {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	line-height: 50px;
+	margin-bottom: 20px;
 }
 
 .input {
-    justify-content: center;
-    background: transparent;
-    border-style: initial;
-    border-bottom: solid 2px white;
-    width: 221px;
-    outline: none;
-    color: white;
+	justify-content: center;
+	background: transparent;
+	border-style: initial;
+	border-bottom: solid 2px white;
+	width: 221px;
+	outline: none;
+	color: white;
 }
 
 .input-correo {
-    background: transparent;
-    border-style: initial;
-    border-bottom: solid 2px white;
-    width: 493px;
-    outline: none;
-    color: white;
-    
+	background: transparent;
+	border-style: initial;
+	border-bottom: solid 2px white;
+	width: 493px;
+	outline: none;
+	color: white;
 }
 
 .Contraseña {
-    margin-right: 55px;
-    margin-bottom: 30px;
+	margin-right: 55px;
+	margin-bottom: 30px;
 }
 
 .ContraseñaGenero {
-    display: flex;
-    flex-direction: row;
-    outline: none;
-    color: white;
-    display: flex;
-    align-items: center;
-
+	display: flex;
+	flex-direction: row;
+	outline: none;
+	color: white;
+	display: flex;
+	align-items: center;
 }
 
 .Genero {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    height: 60px;
-
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	height: 60px;
 }
 
 select {
-    background: transparent;
-    color: white;
-    border: none;
+	background: transparent;
+	color: white;
+	border: none;
 }
 
 select option {
-    background-color: black;
-    
+	background-color: black;
 }
 
 .labelGenero {
-    display: flex;
-    align-items: center;
+	display: flex;
+	align-items: center;
 }
 
 .iniciarSeccion {
-    margin: 0;
-    position: relative;
-    left: 334px;
-    width: 250px;
-    bottom: -57px;
+	margin: 0;
+	position: relative;
+	left: 334px;
+	width: 250px;
+	bottom: -57px;
 }
 
 a {
-    color: #15ffe4;
+	color: #15ffe4;
+}
+
+@media screen and (max-width: 680px) {
+	.div {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		height: 490px;
+		width: 420px;
+	}
+
+	.formulario {
+		padding: 0px;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.div_NA {
+		display: flex;
+		flex-direction: column;
+		gap: 0px;
+	}
+
+	.NombreApellido,
+	.Correo {
+		line-height: 30px;
+	}
+
+	.input {
+		width: 250px;
+	}
+
+	.input-correo {
+		width: 250px;
+	}
+
+	.Contraseña {
+		margin-right: 0px;
+		margin-bottom: 30px;
+	}
+
+	.Genero {
+		position: absolute;
+		bottom: 105px;
+	}
+
+	.Boton input {
+		border: 1px solid;
+	}
+
+	.iniciarSeccion {
+		left: 63px;
+		bottom: -67px;
+	}
 }

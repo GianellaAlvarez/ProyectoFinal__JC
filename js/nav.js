@@ -4,3 +4,4 @@ fetch('menu.html')
   .then(data => {
     document.getElementById('menu').innerHTML = data;
   });
+

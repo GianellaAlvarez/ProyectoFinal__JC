@@ -1,145 +1,145 @@
-
 .gimnasios {
-    display: flex;
-    justify-content: space-around;
-    position: relative;
-    top: 150px;
-    flex-wrap: wrap;
-    width: 80%;
-    margin: auto;
+	display: flex;
+	justify-content: space-around;
+	position: relative;
+	top: 60px;
+	flex-wrap: wrap;
+	width: 80%;
+	margin: auto;
+    gap: 70px;
+	margin-bottom: 220px;
+
 }
 
 .articuloSanIgnacio {
-    height: 250px;
+	height: 250px;
 }
 
 .gimnasios__sanAntonio {
-    background-image: url(../../img/sanAntonio.jpg);
-    background-size: 380px;
-    height: 250px;
-    width: 300px;
-    color: white;
-
+	background-image: url(../../img/sanAntonio.jpg);
+	background-size: 380px;
+	height: 250px;
+	width: 300px;
+	color: white;
 }
 
 .gimnasios__sandiego {
-    background-image: url(../../img/sandiego.jpg);
-    background-size: 380px;
-    height: 250px;
-    width: 300px;
-    color: white;
-
+	background-image: url(../../img/sandiego.jpg);
+	background-size: 380px;
+	height: 250px;
+	width: 300px;
+	color: white;
 }
 
 .gimnasios__exitoColombia {
-    background-image: url(../../img/ExitoColombia.jpg);
-    background-size: 380px;
-    height: 250px;
-    width: 300px;
-    color: white;
-
+	background-image: url(../../img/ExitoColombia.jpg);
+	background-size: 380px;
+	height: 250px;
+	width: 300px;
+	color: white;
 }
 
 .gimnasios__laCentralBuenosAires {
-    background-image: url(../../img/LaCentralBuenosAires.jpg);
-    background-size: 380px;
-    height: 250px;
-    width: 300px;
-    color: white;
-
+	background-image: url(../../img/LaCentralBuenosAires.jpg);
+	background-size: 380px;
+	height: 250px;
+	width: 300px;
+	color: white;
 }
 
 .gimnasios__unicentroMedellin {
-    background-image: url(../../img/UnicentroMedellin.jpg);
-    background-size: 380px;
-    height: 250px;
-    width: 300px;
-    color: white;
-
+	background-image: url(../../img/UnicentroMedellin.jpg);
+	background-size: 380px;
+	height: 250px;
+	width: 300px;
+	color: white;
 }
 
 .sanAntonio__ubicacion {
-    display: flex;
-    align-items: center;
-    font-size: 15px;
-    font-family: cursive;
-    margin-left: 20px;
-    text-shadow: 1px 1px 1px #000000;
+	display: flex;
+	align-items: center;
+	font-size: 15px;
+	font-family: cursive;
+	margin-left: 20px;
+	text-shadow: 1px 1px 1px #000000;
 }
 
 img {
-    height: 30px;
+	height: 30px;
 }
 
 h3 {
-    font-family: cursive;
-    font-size: 25px;
-    text-shadow: 2px 2px 1px #333;
-    transform: perspective(500px) rotateX(20deg);
-    margin-left: 29px;
-    margin-top: 0px;
+	font-family: cursive;
+	font-size: 25px;
+	text-shadow: 2px 2px 1px #333;
+	transform: perspective(500px) rotateX(20deg);
+	margin-left: 29px;
+	margin-top: 0px;
 }
 
 .tipoPlan__lista {
-    margin: 0px;
-    padding: 10px;
-    display: flex;
-    flex-direction: row;
-    text-decoration: none;
-    background: rgba(0, 0, 0, 0.555);
-    font-size: 12px;
-    font-family: cursive;
-    height: 75px;
-    margin-top: 69px;
+	margin: 0px;
+	padding: 10px;
+	display: flex;
+	flex-direction: row;
+	text-decoration: none;
+	background: rgba(0, 0, 0, 0.555);
+	font-size: 12px;
+	font-family: cursive;
+	height: 75px;
+	margin-top: 69px;
 }
 
 .tipoPlan__lista--1 {
-    margin: 0px;
-    padding: 10px;
-    display: flex;
-    flex-direction: row;
-    text-decoration: none;
-    background: rgba(0, 0, 0, 0.555);
-    font-size: 12px;
-    font-family: cursive;
-    height: 75px;
-    margin-top: 34px;
+	margin: 0px;
+	padding: 10px;
+	display: flex;
+	flex-direction: row;
+	text-decoration: none;
+	background: rgba(0, 0, 0, 0.555);
+	font-size: 12px;
+	font-family: cursive;
+	height: 75px;
+	margin-top: 34px;
 }
 
 .lista__planes {
-    display: flex;
-    text-decoration: none;
+	display: flex;
+	text-decoration: none;
 }
 
-.planEssence, .planBlack, .planBlackSinPermanencia {
-    display: flex;
+.planEssence,
+.planBlack,
+.planBlackSinPermanencia {
+	display: flex;
 }
 
 .div__plan {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px 10px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	padding: 10px 10px;
 }
 
-.tituloPlan, .parrafoPlan {
-    margin: 0px;
-    text-align: center;
+.tituloPlan,
+.parrafoPlan {
+	margin: 0px;
+	text-align: center;
 }
 
 .parrafoPlan {
-    font-size: 15px;
+	font-size: 15px;
 }
 
 button {
-    background: transparent;
-    border: 1px solid white;
-    height: 40px;
-    width: 300px;
-    border-radius: 5px;
-    color: white;
-    font-family: revert;
-    font-size: 15px;
-    margin-top: 15px;
+	background: transparent;
+	border: 1px solid white;
+	height: 40px;
+	width: 300px;
+	border-radius: 5px;
+	color: white;
+	font-family: revert;
+	font-size: 15px;
+	margin-top: 15px;
 }

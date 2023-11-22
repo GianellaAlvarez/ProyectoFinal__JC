@@ -1,13 +1,17 @@
 /* styles.css */
 .menu {
-    width: 200px;
+    width: 230px;
     color: black;
     position: fixed;
     height: 100%;
     overflow: auto;
     top: 112px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    margin-top: 55px;
 
-    
 }
 
 .menu ul {
@@ -20,26 +24,108 @@
 .menu li {
     padding: 10px;
     color: black;
-    text-align: center;
     border-bottom: 2px solid;
+    font-size: 20px;
+
     /*background-color: rgb(105, 255, 228);
     background-color: #39ffe599;*/
-    background-color: gray;
-
 
 }
 
 .menu a {
     text-decoration: none;
     color: black;
-    display: block;
     height: 40px;
-    line-height: 37px;
+    line-height: 10px;
+    color: white;
 
 }
 
 .contenido {
     margin-left: 220px;
-    padding: 94px 85px 21px 25px;
+    padding: 12px 85px 21px 25px;
 
+}
+
+.filtro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.filtroPrecio {
+    width: 90px;
+    overflow: hidden;
+}
+
+.filtroPrecio::-webkit-inner-spin-button,
+.filtroPrecio::-webkit-outer-spin-button {
+  -webkit-appearance: none; /* WebKit */
+  margin: 0; /* Eliminar el margen por defecto */
+}
+
+
+.nav__link,
+.nav__logo,
+.desplegable,
+.cerrar {
+    color: white;
+}
+
+.desplegable {
+    margin-left: 22px;
+    font-size: 25px;    
+    cursor: pointer;
+}
+
+@media screen and (max-width: 767px) {
+    .menuOculto {
+        position: fixed;
+        width: 50%;
+        background: black;
+        left: -150%;
+        padding: 3.5rem 0;
+        transition: 0.4s;
+        z-index: 1;
+        border-radius: 0 0 1.5rem 1.5rem;
+    }
+}
+
+.cerrar {
+    font-size: 1.8rem;
+    position: absolute;
+    top: 0.5rem;
+    right: 0.7rem;
+    cursor: pointer;
+}
+
+@media screen and (min-width: 767px) {
+    .nav {
+        height: calc(var(--header-height) + 1.5rem);
+    }
+    .cerrar,
+    .desplegable {
+        display: none;
+    }
+
+}
+
+.show--menu {
+    left: 0;
+    top: 105px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: black;
+    height: 280px;
+    justify-content: center;
+}
+
+
+@media screen and (max-width: 767px) {
+
+	.contenido {
+		margin-left: 0;
+        padding: 10px 45px 40px 75px;
+	}
 }

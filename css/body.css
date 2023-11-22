@@ -1,6 +1,18 @@
 body {
-  font-family: 'Times New Roman', Times, serif;
-  margin: 0;
-  padding: 0;
-  background: black;
+	font-family: "Times New Roman", Times, serif;
+	margin: 0;
+	padding: 0;
+	background: black;
+}
+
+/*=============== SCROLL BAR ===============*/
+
+::-webkit-scrollbar {
+	width: 0.6rem;
+	background: #413e3e;
+}
+
+::-webkit-scrollbar-thumb {
+	background: #272525;
+	border-radius: 0.5rem;
 }

@@ -1,56 +1,73 @@
 .div {
-    display: flex;
-    flex-direction: column;
-    height: 450px;
-    width: 500px;
-    margin: auto;
-    margin-top: 20px;
-    border: 1px solid white;
-    border-radius: 17px;
-    color: white;
-
+	display: flex;
+	flex-direction: column;
+	height: 450px;
+	width: 500px;
+	margin: auto;
+	margin-top: 20px;
+	border: 1px solid white;
+	border-radius: 17px;
+	color: white;
 }
 
 .formulario {
-    padding: 72px;
+	padding: 72px;
 }
 
 h2 {
-    margin: 0;
-    margin-bottom: 40px;
+	margin: 0;
+	margin-bottom: 40px;
 }
 
-.Correo, .Contraseña{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    line-height: 50px;
-    margin-bottom: 20px;
+.Correo,
+.Contraseña {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	line-height: 50px;
+	margin-bottom: 20px;
 }
 
 .input {
-    justify-content: center;
-    background: transparent;
-    border-style: initial;
-    border-bottom: solid 2px white;
-    width: 350px;
-    outline: none;
-    color: white;
-
+	justify-content: center;
+	background: transparent;
+	border-style: initial;
+	border-bottom: solid 2px white;
+	width: 350px;
+	outline: none;
+	color: white;
 }
 
 .input-correo {
-    background: transparent;
-    border-style: initial;
-    border-bottom: solid 2px white;
-    width: 350px;
-    outline: none;
-    color: white;
-    
+	background: transparent;
+	border-style: initial;
+	border-bottom: solid 2px white;
+	width: 350px;
+	outline: none;
+	color: white;
 }
 
 .Contraseña {
-    margin-bottom: 30px;
-    outline: none;
-    color: white;
+	margin-bottom: 30px;
+	outline: none;
+	color: white;
+}
+
+@media screen and (max-width: 680px) {
+	.div {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		height: 440px;
+		width: 385px;
+	}
+
+	.input {
+		width: 250px;
+	}
+
+	.input-correo {
+		width: 250px;
+	}
 }
